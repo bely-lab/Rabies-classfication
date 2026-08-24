@@ -3,7 +3,10 @@ import pandas as pd
 
 DATA_DIR = Path("data")
 
-files = sorted(DATA_DIR.glob("*.xlsx"))
+files = sorted(
+    p for p in DATA_DIR.glob("*.xlsx")
+    if not p.name.startswith("~$")
+)
 
 print(f"Found {len(files)} Excel files\n")
 
