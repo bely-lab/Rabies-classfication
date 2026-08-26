@@ -1,41 +1,60 @@
 from pathlib import Path
 import pandas as pd
 
-DATA_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = Path(__file__).resolve().parent
 
-files = {
-    "Rabies": DATA_DIR / "CGPP_Rabies_Animal.xlsx",
-    "Anthrax": DATA_DIR / "CGPP_Anthrax_Animal.xlsx",
-    "Brucellosis": DATA_DIR / "CGPP_Brucellosis_Animal.xlsx",
+# Find all Excel files anywhere inside the project directory
+excel_files = list(PROJECT_DIR.rglob("*.xlsx"))
+
+print("\nFound Excel files:")
+for f in excel_files:
+    print(" -", f)
+
+# Select the three animal datasets
+wanted = {
+    "CGPP_Rabies_Animal.xlsx": "Rabies",
+    "CGPP_Anthrax_Animal.xlsx": "Anthrax",
+    "CGPP_Brucellosis_Animal.xlsx": "Brucellosis",
 }
 
 records = []
 
-for disease, path in files.items():
+for filename, disease in wanted.items():
 
-    if not path.exists():
-        print(f"WARNING: File not found: {path}")
+    matches = [f for f in excel_files if f.name == filename]
+
+    if not matches:
+        print(f"\nWARNING: Could not find {filename}")
         continue
+
+    path = matches[0]
 
     try:
         df = pd.read_excel(path, engine="openpyxl")
 
+        # Disease is assigned from the source filename.
+        # It is NOT a column in the original dataset.
         records.append({
             "Disease": disease,
             "Rows": len(df),
-            "Columns": len(df.columns),
+            "Variables": len(df.columns),
         })
 
-    except Exception as e:
-        print(f"ERROR reading {path.name}: {e}")
+        print(f"\n{disease}")
+        print("File:", path)
+        print("Rows:", len(df))
+        print("Variables:", len(df.columns))
 
-summary = pd.DataFrame(
-    records,
-    columns=["Disease", "Rows", "Columns"]
-)
+    except Exception as e:
+        print(f"ERROR reading {path}: {e}")
+
+summary = pd.DataFrame(records)
 
 print("\n" + "=" * 80)
-print("DATASET SUMMARY")
+print("CGPP DATASET SUMMARY")
 print("=" * 80)
 
-print(summary.to_string(index=False))
+if len(summary) > 0:
+    print(summary.to_string(index=False))
+else:
+    print("No datasets were found.")
