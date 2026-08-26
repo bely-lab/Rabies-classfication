@@ -15,7 +15,7 @@ datasets = {
 }
 
 
-# Columns that look relevant to the animal surveillance record
+# Columns that seem relevant to the animal surveillance record
 candidate_columns = [
     "area_name/type_of_suspect_case",
     "area_name/region",
