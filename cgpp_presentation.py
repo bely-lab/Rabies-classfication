@@ -3,20 +3,23 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+
+# ============================================================
+# SETTINGS
+# ============================================================
+
 DATA_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = DATA_DIR / "presentation_outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
-# ---------------------------------------------------------
-# 1. LOAD ALL CGPP FILES
-# ---------------------------------------------------------
-
-files = sorted(DATA_DIR.glob("CGPP_*.xlsx"))
+# ============================================================
+# 1. LOAD CGPP FILES
+# ============================================================
 
 datasets = {}
 
-for file in files:
+for file in sorted(DATA_DIR.glob("CGPP_*.xlsx")):
 
     # Ignore temporary Excel files
     if file.name.startswith("~$"):
@@ -25,20 +28,28 @@ for file in files:
     try:
         df = pd.read_excel(file, engine="openpyxl")
 
+        # Remove CGPP_ and extension
         name = file.stem.replace("CGPP_", "")
+
+        # Remove things like (1), (2), (3)
+        import re
+        name = re.sub(r"\(\d+\)$", "", name).strip()
 
         datasets[name] = df
 
-        print(f"{name:30s} {len(df):4d} rows | {len(df.columns):3d} columns")
+        print(
+            f"{name:25s} | "
+            f"{len(df):4d} rows | "
+            f"{len(df.columns):3d} columns"
+        )
 
     except Exception as e:
-        print(f"ERROR: {file.name}")
-        print(e)
+        print(f"ERROR reading {file.name}: {e}")
 
 
-# ---------------------------------------------------------
+# ============================================================
 # 2. DATASET SUMMARY
-# ---------------------------------------------------------
+# ============================================================
 
 summary_rows = []
 
@@ -46,96 +57,103 @@ for name, df in datasets.items():
 
     parts = name.split("_")
 
-    disease = parts[0]
-    population = parts[1] if len(parts) > 1 else "Unknown"
+    disease = parts[0] if len(parts) >= 1 else "Unknown"
+    population = parts[1] if len(parts) >= 2 else "Unknown"
 
     summary_rows.append({
+        "Dataset": name,
         "Disease": disease,
         "Population": population,
         "Rows": len(df),
         "Columns": len(df.columns)
     })
 
+
 summary = pd.DataFrame(summary_rows)
 
-summary = summary.sort_values(
-    ["Disease", "Population"]
-)
 
 print("\n" + "=" * 80)
 print("DATASET SUMMARY")
 print("=" * 80)
-print(summary.to_string(index=False))
 
-summary.to_csv(
-    OUTPUT_DIR / "dataset_summary.csv",
-    index=False
+if not summary.empty:
+    print(summary.to_string(index=False))
+
+    summary.to_csv(
+        OUTPUT_DIR / "dataset_summary.csv",
+        index=False
+    )
+
+
+# ============================================================
+# 3. RABIES / ANTHRAX / BRUCELLOSIS SUMMARY
+# ============================================================
+
+target_diseases = ["Rabies", "Anthrax", "Brucellosis"]
+
+target_summary = summary[
+    summary["Disease"].isin(target_diseases)
+].copy()
+
+print("\n" + "=" * 80)
+print("RABIES / ANTHRAX / BRUCELLOSIS")
+print("=" * 80)
+
+print(
+    target_summary[
+        ["Disease", "Population", "Rows", "Columns"]
+    ].to_string(index=False)
 )
 
 
-# ---------------------------------------------------------
-# 3. DISEASE × POPULATION PLOT
-# ---------------------------------------------------------
+# ============================================================
+# 4. PLOT RECORD COUNTS
+# ============================================================
 
-pivot = summary.pivot_table(
-    index="Disease",
-    columns="Population",
-    values="Rows",
-    aggfunc="sum",
-    fill_value=0
-)
+if not target_summary.empty:
 
-ax = pivot.plot(
-    kind="bar",
-    figsize=(9, 5)
-)
+    pivot = target_summary.pivot_table(
+        index="Disease",
+        columns="Population",
+        values="Rows",
+        aggfunc="sum",
+        fill_value=0
+    )
 
-ax.set_title("CGPP Surveillance Records by Disease and Population")
-ax.set_xlabel("Disease")
-ax.set_ylabel("Number of records")
-ax.tick_params(axis="x", rotation=0)
+    ax = pivot.plot(
+        kind="bar",
+        figsize=(9, 5)
+    )
 
-plt.tight_layout()
-plt.savefig(
-    OUTPUT_DIR / "records_by_disease_population.png",
-    dpi=300
-)
-plt.close()
+    ax.set_title(
+        "CGPP Surveillance Records by Disease and Population"
+    )
+    ax.set_xlabel("Disease")
+    ax.set_ylabel("Number of records")
+    ax.tick_params(axis="x", rotation=0)
+
+    plt.tight_layout()
+
+    plt.savefig(
+        OUTPUT_DIR / "records_by_disease_population.png",
+        dpi=300
+    )
+
+    plt.close()
 
 
-# ---------------------------------------------------------
-# 4. COMMON COLUMNS
-# ---------------------------------------------------------
+# ============================================================
+# 5. COMMON COLUMNS
+# ============================================================
 
-all_column_sets = {
+column_sets = {
     name: set(df.columns)
     for name, df in datasets.items()
 }
 
-common_columns = set.intersection(
-    *all_column_sets.values()
-)
 
-print("\n" + "=" * 80)
-print("COMMON COLUMNS ACROSS ALL LOADED DATASETS")
-print("=" * 80)
-
-for col in sorted(common_columns):
-    print(col)
-
-pd.DataFrame({
-    "Common columns": sorted(common_columns)
-}).to_csv(
-    OUTPUT_DIR / "common_columns.csv",
-    index=False
-)
-
-
-# ---------------------------------------------------------
-# 5. RABIES / ANTHRAX / BRUCELLOSIS COMMON COLUMNS
-# ---------------------------------------------------------
-
-target_names = [
+# All six main datasets
+main_names = [
     "Rabies_Human",
     "Rabies_Animal",
     "Anthrax_Human",
@@ -144,83 +162,38 @@ target_names = [
     "Brucellosis_Animal"
 ]
 
-target_sets = [
-    all_column_sets[name]
-    for name in target_names
-    if name in all_column_sets
+existing_main = [
+    name for name in main_names
+    if name in column_sets
 ]
 
-if target_sets:
+if existing_main:
 
-    target_common = set.intersection(*target_sets)
+    common_columns = set.intersection(
+        *[column_sets[name] for name in existing_main]
+    )
 
     print("\n" + "=" * 80)
-    print("COMMON COLUMNS ACROSS RABIES / ANTHRAX / BRUCELLOSIS")
+    print("COMMON COLUMNS ACROSS MAIN DISEASE DATASETS")
     print("=" * 80)
 
-    for col in sorted(target_common):
+    print(f"Datasets included: {len(existing_main)}")
+    print(f"Common columns: {len(common_columns)}")
+
+    for col in sorted(common_columns):
         print(col)
 
     pd.DataFrame({
-        "Common columns": sorted(target_common)
+        "Common column": sorted(common_columns)
     }).to_csv(
-        OUTPUT_DIR / "rabies_anthrax_brucellosis_common_columns.csv",
+        OUTPUT_DIR / "common_columns_main_datasets.csv",
         index=False
     )
 
 
-# ---------------------------------------------------------
-# 6. IMAGE / MEDIA REFERENCE INSPECTION
-# ---------------------------------------------------------
-
-print("\n" + "=" * 80)
-print("IMAGE / MEDIA REFERENCES")
-print("=" * 80)
-
-image_results = []
-
-for name, df in datasets.items():
-
-    image_columns = [
-        col for col in df.columns
-        if "image" in col.lower()
-        or "media" in col.lower()
-    ]
-
-    for col in image_columns:
-
-        series = df[col].astype(str).str.strip()
-
-        # Count actual URL-looking values
-        url_mask = series.str.startswith(
-            ("http://", "https://")
-        )
-
-        image_results.append({
-            "Dataset": name,
-            "Column": col,
-            "Rows": len(df),
-            "URL references": int(url_mask.sum()),
-            "Non-empty values": int(
-                series.replace(
-                    {"": np.nan, "nan": np.nan, "None": np.nan}
-                ).notna().sum()
-            )
-        })
-
-image_summary = pd.DataFrame(image_results)
-
-print(image_summary.to_string(index=False))
-
-image_summary.to_csv(
-    OUTPUT_DIR / "image_media_summary.csv",
-    index=False
-)
-
-
-# ---------------------------------------------------------
-# 7. KEY VARIABLE INSPECTION
-# ---------------------------------------------------------
+# ============================================================
+# 6. IMPORTANT VARIABLES
+# ============================================================
 
 keywords = [
     "age",
@@ -238,14 +211,9 @@ keywords = [
     "illness",
     "disease",
     "outcome",
-    "case",
     "notification",
     "identification"
 ]
-
-print("\n" + "=" * 80)
-print("POTENTIALLY RELEVANT VARIABLES")
-print("=" * 80)
 
 relevant_columns = set()
 
@@ -258,6 +226,11 @@ for df in datasets.values():
         if any(keyword in col_lower for keyword in keywords):
             relevant_columns.add(col)
 
+
+print("\n" + "=" * 80)
+print("POTENTIALLY RELEVANT VARIABLES")
+print("=" * 80)
+
 for col in sorted(relevant_columns):
     print(col)
 
@@ -268,6 +241,65 @@ pd.DataFrame({
     index=False
 )
 
+
+# ============================================================
+# 7. IMAGE / MEDIA REFERENCES
+# ============================================================
+
+print("\n" + "=" * 80)
+print("IMAGE / MEDIA REFERENCES")
+print("=" * 80)
+
+image_results = []
+
+for name, df in datasets.items():
+
+    image_columns = [
+        col for col in df.columns
+        if (
+            "image" in col.lower()
+            or "media" in col.lower()
+        )
+    ]
+
+    for col in image_columns:
+
+        values = df[col].fillna("").astype(str).str.strip()
+
+        url_count = values.str.startswith(
+            ("http://", "https://")
+        ).sum()
+
+        nonempty_count = (
+            values != ""
+        ).sum()
+
+        image_results.append({
+            "Dataset": name,
+            "Column": col,
+            "Rows": len(df),
+            "URL references": int(url_count),
+            "Non-empty values": int(nonempty_count)
+        })
+
+
+image_summary = pd.DataFrame(image_results)
+
+if not image_summary.empty:
+
+    print(
+        image_summary.to_string(index=False)
+    )
+
+    image_summary.to_csv(
+        OUTPUT_DIR / "image_media_summary.csv",
+        index=False
+    )
+
+
+# ============================================================
+# DONE
+# ============================================================
 
 print("\n" + "=" * 80)
 print("OUTPUT FILES")
