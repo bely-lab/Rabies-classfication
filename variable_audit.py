@@ -18,7 +18,7 @@ for disease, path in files.items():
 
 # ---------------------------------------------------------
 # Create a compact audit of every common variable
-# ---------------------------------------------------------
+# 
 
 columns = datasets["Rabies"].columns
 
