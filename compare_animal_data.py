@@ -50,7 +50,6 @@ for name, df in datasets.items():
         print(column)
 
 # 3. Look specifically for image/media columns
-# ---------------------------------------------------------
 
 print("\n" + "=" * 80)
 print("IMAGE / MEDIA COLUMNS")
