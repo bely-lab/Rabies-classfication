@@ -68,8 +68,6 @@ for _, row in audit.iterrows():
         f"{row['Brucellosis_unique']} unique"
     )
 # Save for later inspection
-# ---------------------------------------------------------
-
 output = DATA_DIR / "cgpp_variable_audit.csv"
 audit.to_csv(output, index=False)
 
