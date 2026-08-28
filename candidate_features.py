@@ -13,7 +13,6 @@ datasets = {
     name: pd.read_excel(path)
     for name, path in files.items()
 }
-
 # Columns that seem relevant to the animal surveillance record
 candidate_columns = [
     "area_name/type_of_suspect_case",
