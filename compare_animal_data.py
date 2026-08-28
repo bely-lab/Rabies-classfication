@@ -49,8 +49,6 @@ for name, df in datasets.items():
     for column in sorted(unique_columns):
         print(column)
 
-
-# ---------------------------------------------------------
 # 3. Look specifically for image/media columns
 # ---------------------------------------------------------
 
