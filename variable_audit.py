@@ -67,8 +67,6 @@ for _, row in audit.iterrows():
         f"{row['Brucellosis_nonmissing']}/{len(datasets['Brucellosis'])} non-missing, "
         f"{row['Brucellosis_unique']} unique"
     )
-
-# ---------------------------------------------------------
 # Save for later inspection
 # ---------------------------------------------------------
 
