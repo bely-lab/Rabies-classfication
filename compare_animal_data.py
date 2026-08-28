@@ -21,8 +21,6 @@ for name, path in files.items():
     print(f"Columns: {len(df.columns)}")
 
 # 1. Columns common to all three datasets
-# ---------------------------------------------------------
-
 common_columns = set.intersection(
     *(set(df.columns) for df in datasets.values())
 )
