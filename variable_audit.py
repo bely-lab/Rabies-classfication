@@ -15,7 +15,6 @@ for disease, path in files.items():
     df = pd.read_excel(path, engine="openpyxl")
     datasets[disease] = df
 
-
 # Create a compact audit of every common variable
 
 columns = datasets["Rabies"].columns
