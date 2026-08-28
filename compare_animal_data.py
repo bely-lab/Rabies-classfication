@@ -20,7 +20,6 @@ for name, path in files.items():
     print(f"Rows: {len(df)}")
     print(f"Columns: {len(df.columns)}")
 
-
 # ---------------------------------------------------------
 # 1. Columns common to all three datasets
 # ---------------------------------------------------------
