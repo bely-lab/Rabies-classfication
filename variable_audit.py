@@ -68,7 +68,6 @@ for _, row in audit.iterrows():
         f"{row['Brucellosis_unique']} unique"
     )
 
-
 # ---------------------------------------------------------
 # Save for later inspection
 # ---------------------------------------------------------
