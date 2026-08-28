@@ -32,7 +32,6 @@ for column in sorted(common_columns):
     print(column)
 
 # 2. Columns unique to each dataset
-# ---------------------------------------------------------
 
 for name, df in datasets.items():
 
