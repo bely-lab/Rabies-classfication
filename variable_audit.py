@@ -16,7 +16,6 @@ for disease, path in files.items():
     datasets[disease] = df
 
 # Create a compact audit of every common variable
-
 columns = datasets["Rabies"].columns
 
 rows = []
