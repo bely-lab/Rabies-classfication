@@ -31,8 +31,6 @@ print(f"COMMON COLUMNS: {len(common_columns)}")
 for column in sorted(common_columns):
     print(column)
 
-
-# ---------------------------------------------------------
 # 2. Columns unique to each dataset
 # ---------------------------------------------------------
 
