@@ -10,7 +10,6 @@ excel_files = list(PROJECT_DIR.rglob("*.xlsx"))
 print("\nFound Excel files:")
 for f in excel_files:
     print(" -", f)
-
 # Select the three animal datasets
 
 wanted = {
