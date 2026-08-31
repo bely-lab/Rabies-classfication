@@ -4,6 +4,7 @@ import pandas as pd
 PROJECT_DIR = Path(__file__).resolve().parent
 
 # Find all Excel files anywhere inside the project directory
+
 excel_files = list(PROJECT_DIR.rglob("*.xlsx"))
 
 print("\nFound Excel files:")
