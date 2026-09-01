@@ -34,7 +34,6 @@ for filename, disease in wanted.items():
         df = pd.read_excel(path, engine="openpyxl")
 
         # Disease is assigned from the source filename.
-        
         # It is NOT a column in the original dataset.
 
         records.append({
