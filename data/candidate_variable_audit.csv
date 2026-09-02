@@ -1,0 +1,17 @@
+Variable,Completeness_%,Unique_values,Examples
+area_name/region,100.0,5,Somali | Gambella | Benshangul Gumuz | Oromia | SNNP
+area_name/kebele,100.0,258,Achwa | Erer | Kella | Kancharo | Tum
+area_name/village,99.8,283,1 | 2 | 3 | Genit | G
+area_name/_gps_latitude,99.8,428,8.2690503 | 10.6331117 | 7.2357806 | 7.0537861 | 6.258473
+area_name/_gps_longitude,99.8,429,34.5834657 | 35.3189424 | 35.507458 | 35.5205121 | 35.49912167
+area_name/_gps_altitude,99.8,384,0.0 | 1083.0 | 1104.0 | 2506.0 | 458.6
+area_name/_gps_precision,99.8,243,5.0 | 4.9 | 4.8 | 3.9 | 4.6
+area_name/gps,99.8,431,8.2690503 34.5834657 0.0 2200.0 | 7.2357806 35.3189424 0.0 1625.0 | 7.0537861 35.507458 0.0 2500.0 | 6.258473 35.5205121 0.0 3039.0 | 8.332709 33.9594978 0.0 2000.0
+status_of_the_case/means_of_identification_of_the_case,100.0,7,House to house visit | Community gathering | Health Facility | Other specify | During campaign
+status_of_the_case/means_of_notification,100.0,3,Telephone | Verbal | Written
+status_of_the_case/the_case_identified_by_community_volunter_health_development_army,100.0,2,Yes | No
+status_of_the_case/name_of_health_facility_case_registered_at,97.5,324,Erer | Dhedhin | Boka Dambi | V14 | Kuernyaguich HC
+type_of_suspect_case_animal/dose_the_animal_has_owner,100.0,2,Yes | No
+type_of_suspect_case_animal/treatment_immunization_status_of_the_case,100.0,2,Not vaccinated | Vaccinated against the suspected disease
+type_of_suspect_case_animal/type_of_sick_or_died_animal,100.0,10,Goat | Cow | Dog (if it is rabies) | Sheep | Camel
+address_of_contact_person/date_of_the_report,100.0,282,6/3/2021 | 3/31/2021 | 3/2/2023 | 2/22/2023 | 8/25/2023
