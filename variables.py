@@ -81,7 +81,6 @@ for i, col in enumerate(columns, start=1):
         else:
             write("  Examples: [EMPTY]")
 
-# --------------------------------------------------
 # 4. Save COMPLETE output
 
 
