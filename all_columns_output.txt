@@ -1,0 +1,1657 @@
+Rabies: 159 rows × 127 columns
+Anthrax: 117 rows × 127 columns
+Brucellosis: 164 rows × 127 columns
+
+Same columns across all three datasets:
+True
+
+====================================================================================================
+1. area_name/region
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 5 unique
+  Examples: ['Benshangul Gumuz', 'Oromia', 'Somali', 'SNNP', 'Gambella']
+
+Anthrax: 117/117 populated (100.0%), 5 unique
+  Examples: ['Benshangul Gumuz', 'Somali', 'Gambella', 'Oromia', 'SNNP']
+
+Brucellosis: 164/164 populated (100.0%), 5 unique
+  Examples: ['Somali', 'Gambella', 'Oromia', 'Benshangul Gumuz', 'SNNP']
+
+====================================================================================================
+2. area_name/zone_somali
+====================================================================================================
+
+Rabies: 43/159 populated (27.0%), 5 unique
+  Examples: ['Siti', 'Dawa', 'Shebele', 'Dollo', 'Liben']
+
+Anthrax: 66/117 populated (56.4%), 6 unique
+  Examples: ['Siti', 'Shebele', 'Dollo', 'Afder', 'Dawa', 'Liben']
+
+Brucellosis: 29/164 populated (17.7%), 5 unique
+  Examples: ['Siti', 'Shebele', 'Liben', 'Dollo', 'Afder']
+
+====================================================================================================
+3. area_name/zone_oromia
+====================================================================================================
+
+Rabies: 29/159 populated (18.2%), 1 unique
+  Examples: ['Borena']
+
+Anthrax: 5/117 populated (4.3%), 1 unique
+  Examples: ['Borena']
+
+Brucellosis: 40/164 populated (24.4%), 1 unique
+  Examples: ['Borena']
+
+====================================================================================================
+4. area_name/zone_gambella
+====================================================================================================
+
+Rabies: 33/159 populated (20.8%), 3 unique
+  Examples: ['Agnua', 'Nuer', 'Majang']
+
+Anthrax: 18/117 populated (15.4%), 3 unique
+  Examples: ['Nuer', 'Majang', 'Agnua']
+
+Brucellosis: 52/164 populated (31.7%), 3 unique
+  Examples: ['Nuer', 'Agnua', 'Majang']
+
+====================================================================================================
+5. area_name/zone_benshangul
+====================================================================================================
+
+Rabies: 33/159 populated (20.8%), 3 unique
+  Examples: ['Assosa', 'Metekel', 'Kamashi']
+
+Anthrax: 8/117 populated (6.8%), 2 unique
+  Examples: ['Assosa', 'Metekel']
+
+Brucellosis: 42/164 populated (25.6%), 3 unique
+  Examples: ['Assosa', 'Metekel', 'Kamashi']
+
+====================================================================================================
+6. area_name/zone_snnp
+====================================================================================================
+
+Rabies: 21/159 populated (13.2%), 2 unique
+  Examples: ['Bench Maji', 'South Omo']
+
+Anthrax: 20/117 populated (17.1%), 2 unique
+  Examples: ['Bench Maji', 'South Omo']
+
+Brucellosis: 1/164 populated (0.6%), 1 unique
+  Examples: ['Bench Maji']
+
+====================================================================================================
+7. area_name/woreda_somali_Afder
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 4/117 populated (3.4%), 2 unique
+  Examples: ['Hargele', 'Bare']
+
+Brucellosis: 1/164 populated (0.6%), 1 unique
+  Examples: ['Chereti']
+
+====================================================================================================
+8. area_name/woreda_somali_Liben
+====================================================================================================
+
+Rabies: 2/159 populated (1.3%), 1 unique
+  Examples: ['Filtu']
+
+Anthrax: 6/117 populated (5.1%), 1 unique
+  Examples: ['Filtu']
+
+Brucellosis: 3/164 populated (1.8%), 1 unique
+  Examples: ['Filtu']
+
+====================================================================================================
+9. area_name/woreda_somali_Shebele
+====================================================================================================
+
+Rabies: 4/159 populated (2.5%), 2 unique
+  Examples: ['Kelafo', 'Adadle']
+
+Anthrax: 7/117 populated (6.0%), 3 unique
+  Examples: ['Ferfer', 'Gode', 'Mustahil']
+
+Brucellosis: 18/164 populated (11.0%), 5 unique
+  Examples: ['Ferfer', 'Kelafo', 'Adadle', 'Mustahil', 'Gode']
+
+====================================================================================================
+10. area_name/woreda_somali_Siti
+====================================================================================================
+
+Rabies: 8/159 populated (5.0%), 3 unique
+  Examples: ['Ayisha', 'Meisso', 'Errer']
+
+Anthrax: 30/117 populated (25.6%), 2 unique
+  Examples: ['Errer', 'Meisso']
+
+Brucellosis: 2/164 populated (1.2%), 1 unique
+  Examples: ['Meisso']
+
+====================================================================================================
+11. area_name/woreda_somali_Dollo
+====================================================================================================
+
+Rabies: 2/159 populated (1.3%), 2 unique
+  Examples: ['Geladi', 'Warder']
+
+Anthrax: 15/117 populated (12.8%), 3 unique
+  Examples: ['Geladi', 'Bohk', 'Danod']
+
+Brucellosis: 5/164 populated (3.0%), 1 unique
+  Examples: ['Geladi']
+
+====================================================================================================
+12. area_name/woreda_somali_Dawa
+====================================================================================================
+
+Rabies: 27/159 populated (17.0%), 3 unique
+  Examples: ['Hudet', 'Moyale', 'Mubarek']
+
+Anthrax: 4/117 populated (3.4%), 1 unique
+  Examples: ['Mubarek']
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+13. area_name/woreda_oromia_Borena
+====================================================================================================
+
+Rabies: 29/159 populated (18.2%), 5 unique
+  Examples: ['Dilo', 'Moyale', 'Dire', 'Miyo', 'Teltele']
+
+Anthrax: 5/117 populated (4.3%), 3 unique
+  Examples: ["Dha'as", 'Teltele', 'Moyale']
+
+Brucellosis: 40/164 populated (24.4%), 5 unique
+  Examples: ['Dilo', 'Miyo', "Dha'as", 'Moyale', 'Dire']
+
+====================================================================================================
+14. area_name/woreda_oromia_Kellem
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+15. area_name/woreda_gambella_Agnua
+====================================================================================================
+
+Rabies: 6/159 populated (3.8%), 2 unique
+  Examples: ['Itang', 'Gambella']
+
+Anthrax: 1/117 populated (0.9%), 1 unique
+  Examples: ['Abobo']
+
+Brucellosis: 27/164 populated (16.5%), 4 unique
+  Examples: ['Itang', 'Gog', 'Gambella', 'Abobo']
+
+====================================================================================================
+16. area_name/woreda_gambella_Nuer
+====================================================================================================
+
+Rabies: 3/159 populated (1.9%), 1 unique
+  Examples: ['Lare']
+
+Anthrax: 9/117 populated (7.7%), 1 unique
+  Examples: ['Lare']
+
+Brucellosis: 22/164 populated (13.4%), 1 unique
+  Examples: ['Lare']
+
+====================================================================================================
+17. area_name/woreda_gambella_Majang
+====================================================================================================
+
+Rabies: 24/159 populated (15.1%), 1 unique
+  Examples: ['Godere']
+
+Anthrax: 8/117 populated (6.8%), 2 unique
+  Examples: ['Godere', 'Mengeshi']
+
+Brucellosis: 3/164 populated (1.8%), 2 unique
+  Examples: ['Mengeshi', 'Godere']
+
+====================================================================================================
+18. area_name/woreda_benshangul_Assosa
+====================================================================================================
+
+Rabies: 23/159 populated (14.5%), 4 unique
+  Examples: ['Bambasi', 'Mengie', 'Oda-Bildigdu', 'Assosa']
+
+Anthrax: 6/117 populated (5.1%), 2 unique
+  Examples: ['Oda-Bildigdu', 'Assosa']
+
+Brucellosis: 22/164 populated (13.4%), 4 unique
+  Examples: ['Bambasi', 'Kurmuk', 'Oda-Bildigdu', 'Assosa']
+
+====================================================================================================
+19. area_name/woreda_benshangul_Metekel
+====================================================================================================
+
+Rabies: 9/159 populated (5.7%), 4 unique
+  Examples: ['Dibate', 'Mandura', 'Wombera', 'Pawi']
+
+Anthrax: 2/117 populated (1.7%), 2 unique
+  Examples: ['Dangur', 'Bullen']
+
+Brucellosis: 18/164 populated (11.0%), 4 unique
+  Examples: ['Wombera', 'Dangur', 'Dibate', 'Guba']
+
+====================================================================================================
+20. area_name/woreda_benshangul_Kamashi
+====================================================================================================
+
+Rabies: 1/159 populated (0.6%), 1 unique
+  Examples: ['Sirba-Abay']
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 2/164 populated (1.2%), 2 unique
+  Examples: ['Sirba-Abay', 'Yaso']
+
+====================================================================================================
+21. area_name/woreda_snnp_Bench_Maji
+====================================================================================================
+
+Rabies: 15/159 populated (9.4%), 3 unique
+  Examples: ['Maji', 'Sheko', 'Debub Bench']
+
+Anthrax: 13/117 populated (11.1%), 3 unique
+  Examples: ['Debub Bench', 'Sheko', 'Maji']
+
+Brucellosis: 1/164 populated (0.6%), 1 unique
+  Examples: ['Debub Bench']
+
+====================================================================================================
+22. area_name/woreda_snnp_South_omo
+====================================================================================================
+
+Rabies: 6/159 populated (3.8%), 3 unique
+  Examples: ['Malie', 'Hamer', 'Dassenech']
+
+Anthrax: 7/117 populated (6.0%), 3 unique
+  Examples: ['Malie', 'Hamer', 'Dassenech']
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+23. area_name/kebele
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 114 unique
+  Examples: ['Showera', 'Dilo magala', 'Kancharo', 'Dilo magala ', 'M/51', 'Biyodelay ', 'Dire dima', 'Dibate']
+
+Anthrax: 117/117 populated (100.0%), 69 unique
+  Examples: ['Duli', 'Abango', 'Aydora', 'Bur-ukur', 'Germam', 'Malow', 'Dunchai kebele', 'Wargam']
+
+Brucellosis: 164/164 populated (100.0%), 107 unique
+  Examples: ['Somedaye', 'Ngor ', 'Mangok ', 'Kancharo', 'Nebar Keshmando', 'Nebar keshemando', 'Achwa', 'Teluth']
+
+====================================================================================================
+24. area_name/village
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 124 unique
+  Examples: ['Showera', 'Dilo', '1', 'O1', 'Kancharo', 'M/51', 'Bioydiley ', 'Mana wata']
+
+Anthrax: 116/117 populated (99.1%), 72 unique
+  Examples: ['Haile', 'Asho', 'G', 'Seyrey', 'Y', 'Parish', '2', 'Dhas']
+
+Brucellosis: 164/164 populated (100.0%), 116 unique
+  Examples: ['Somedaye', 'Ngor', 'Orang', 'Kancharo ', 'Nebar Keshmando', 'Nebar Keshemando', 'Batagella', 'Presbyterian church ']
+
+====================================================================================================
+25. area_name/gps
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 157 unique
+  Examples: ['9.7597603 34.7283177 1497.0 4.56', '4.2575759 37.7005874 924.0 6.357', '4.2576041 37.7005419 931.0 8.1', '4.2575593 37.7005998 934.0 7.4', '4.4869829 37.7326389 1104.0 4.433', '4.4881663 37.7331627 1101.0 4.9', '4.2572427 37.6985552 941.0 4.2', '4.2572115 37.6985701 943.0 4.884']
+
+Anthrax: 117/117 populated (100.0%), 117 unique
+  Examples: ['10.0578143 34.5408964 0.0 1600.0', '10.0510172 34.5377808 0.0 3299.999', '9.8549956 41.3695732 779.0 5.0', '5.0714958 44.9136169 179.6999969482422 4.74', '9.5618222 41.5107039 1136.0 9.916', '8.332709 33.9594978 0.0 2000.0', '7.2413215 35.3221499 1331.800048828125 4.716', '4.2297992 38.7262451 1256.4 4.855']
+
+Brucellosis: 163/164 populated (99.4%), 162 unique
+  Examples: ['9.2504497 40.7763851 1296.5 5.133', '8.3319283 33.9582067 395.1 13.0', '8.331875 33.9581721 395.2 4.833', '4.4868487 37.7325674 1096.0 4.719', '9.7597095 34.7280719 1471.0 4.6', '9.7597262 34.728029 1479.0 5.0', '8.1914046 34.2667609 396.9 4.933', '8.3319423 33.9594908 549.5 12.58']
+
+====================================================================================================
+26. area_name/_gps_latitude
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 154 unique
+  Examples: ['9.7597603', '4.2575759', '4.2576041', '4.2575593', '4.4869829', '4.4881663', '4.2572427', '4.2572115']
+
+Anthrax: 117/117 populated (100.0%), 117 unique
+  Examples: ['10.0578143', '10.0510172', '9.8549956', '5.0714958', '9.5618222', '8.332709', '7.2413215', '4.2297992']
+
+Brucellosis: 163/164 populated (99.4%), 162 unique
+  Examples: ['9.2504497', '8.3319283', '8.331875', '4.4868487', '9.7597095', '9.7597262', '8.1914046', '8.3319423']
+
+====================================================================================================
+27. area_name/_gps_longitude
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 155 unique
+  Examples: ['34.7283177', '37.7005874', '37.7005419', '37.7005998', '37.7326389', '37.7331627', '37.6985552', '37.6985701']
+
+Anthrax: 117/117 populated (100.0%), 117 unique
+  Examples: ['34.5408964', '34.5377808', '41.3695732', '44.9136169', '41.5107039', '33.9594978', '35.3221499', '38.7262451']
+
+Brucellosis: 163/164 populated (99.4%), 162 unique
+  Examples: ['40.7763851', '33.9582067', '33.9581721', '37.7325674', '34.7280719', '34.728029', '34.2667609', '33.9594908']
+
+====================================================================================================
+28. area_name/_gps_altitude
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 142 unique
+  Examples: ['1497.0', '924.0', '931.0', '934.0', '1104.0', '1101.0', '941.0', '943.0']
+
+Anthrax: 117/117 populated (100.0%), 103 unique
+  Examples: ['0.0', '779.0', '179.6999969', '1136.0', '1331.800049', '1256.4', '385.0', '1062.2']
+
+Brucellosis: 163/164 populated (99.4%), 145 unique
+  Examples: ['1296.5', '395.1', '395.2', '1096.0', '1471.0', '1479.0', '396.9', '549.5']
+
+====================================================================================================
+29. area_name/_gps_precision
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 105 unique
+  Examples: ['4.56', '6.357', '8.1', '7.4', '4.433', '4.9', '4.2', '4.884']
+
+Anthrax: 117/117 populated (100.0%), 82 unique
+  Examples: ['1600.0', '3299.999', '5.0', '4.74', '9.916', '2000.0', '4.716', '4.855']
+
+Brucellosis: 163/164 populated (99.4%), 114 unique
+  Examples: ['5.133', '13.0', '4.833', '4.719', '4.6', '5.0', '4.933', '12.58']
+
+====================================================================================================
+30. area_name/type_of_suspect_case
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 1 unique
+  Examples: ['Animal']
+
+Anthrax: 117/117 populated (100.0%), 1 unique
+  Examples: ['Animal']
+
+Brucellosis: 164/164 populated (100.0%), 1 unique
+  Examples: ['Animal']
+
+====================================================================================================
+31. type_of_suspect_case_human/indicate_the_illness_of_this_surveillance_report
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+32. type_of_suspect_case_human/indicate_the_illness_of_this_surveillance_report_other
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+33. type_of_suspect_case_human/name_of_suspect_case
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+34. type_of_suspect_case_human/sex_of_the_suspect
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+35. type_of_suspect_case_human/age_of_suspect
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+36. type_of_suspect_case_human/image
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+37. type_of_suspect_case_human/afp_case/date_first_appearance_at_health_facility
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+38. type_of_suspect_case_human/afp_case/date_of_onset_of_illness
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+39. type_of_suspect_case_human/afp_case/date_notified_to_supervisor_or_woreda_health_office
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+40. type_of_suspect_case_human/afp_case/date_of_investigation
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+41. type_of_suspect_case_human/afp_case/dates_of_first_stool_specimen_collection
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+42. type_of_suspect_case_human/afp_case/dates_of_second_stool_specimen_collection
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+43. type_of_suspect_case_human/afp_case/date_sample_sent_to_national_laboratory
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+44. type_of_suspect_case_human/afp_case/polio_immunization_status_of_the_case
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+45. type_of_suspect_case_human/afp_case/how_many_doses
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+46. type_of_suspect_case_human/measles_case/date_first_appearance_at_health_facility
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+47. type_of_suspect_case_human/measles_case/date_of_onset_of_illness
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+48. type_of_suspect_case_human/measles_case/date_notified_to_supervisor_or_woreda_health_office
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+49. type_of_suspect_case_human/measles_case/date_of_investigation
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+50. type_of_suspect_case_human/measles_case/date_sample_taken
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+51. type_of_suspect_case_human/measles_case/date_sample_sent_to_the_national_laboratory
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+52. type_of_suspect_case_human/measles_case/measles_immunization_status_of_the_case
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+53. type_of_suspect_case_human/measles_case/if_it_is_epidemic_of_measeles_total_number_of_cases
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+54. type_of_suspect_case_human/neo_natal_tetanus/was_the_suspect_case_alive
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+55. type_of_suspect_case_human/neo_natal_tetanus/date_first_appearance_at_health_facility
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+56. type_of_suspect_case_human/neo_natal_tetanus/date_of_onset_of_illness
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+57. type_of_suspect_case_human/neo_natal_tetanus/date_notified_to_supervisor_or_woreda_health_office
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+58. type_of_suspect_case_human/neo_natal_tetanus/date_of_investigation
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+59. type_of_suspect_case_human/anthrax/was_the_suspect_case_alive
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+60. type_of_suspect_case_human/anthrax/date_first_appearance_at_health_facility
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+61. type_of_suspect_case_human/anthrax/date_of_onset_of_illness
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+62. type_of_suspect_case_human/anthrax/date_notified_to_supervisor_or_woreda_health_office
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+63. type_of_suspect_case_human/anthrax/date_of_investigation
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+64. type_of_suspect_case_human/anthrax/date_sample_taken
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+65. type_of_suspect_case_human/anthrax/date_sample_sent_to_the_national_laboratory
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+66. type_of_suspect_case_human/anthrax/anthrax_immunization_status_of_the_case
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+67. type_of_suspect_case_human/anthrax/how_many_doses
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+68. type_of_suspect_case_human/anthrax/if_it_is_epidemic_of_anthrax_total_number_of_cases
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+69. type_of_suspect_case_human/rabies/was_the_suspect_case_alive
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+70. type_of_suspect_case_human/rabies/date_first_appearance_at_health_facility
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+71. type_of_suspect_case_human/rabies/date_of_onset_of_illness
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+72. type_of_suspect_case_human/rabies/date_notified_to_supervisor_or_woreda_health_office
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+73. type_of_suspect_case_human/rabies/date_of_investigation
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+74. type_of_suspect_case_human/rabies/date_sample_taken
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+75. type_of_suspect_case_human/rabies/date_sample_sent_to_the_national_laboratory
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+76. type_of_suspect_case_human/rabies/rabies_immunization_status_of_the_case
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+77. type_of_suspect_case_human/rabies/how_many_doses
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+78. type_of_suspect_case_human/rabies/if_it_is_epidemic_of_rabies_total_number_of_cases
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+79. type_of_suspect_case_human/brucellosis/was_the_suspect_case_alive
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+80. type_of_suspect_case_human/brucellosis/date_first_appearance_at_health_facility
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+81. type_of_suspect_case_human/brucellosis/date_of_onset_of_illness
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+82. type_of_suspect_case_human/brucellosis/date_notified_to_supervisor_or_woreda_health_office
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+83. type_of_suspect_case_human/brucellosis/date_of_investigation
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+84. type_of_suspect_case_human/brucellosis/date_sample_taken
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+85. type_of_suspect_case_human/brucellosis/date_sample_sent_to_the_national_laboratory
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+86. type_of_suspect_case_human/brucellosis/brucellosis_immunization_status_of_the_case
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+87. type_of_suspect_case_human/brucellosis/how_many_doses
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+88. type_of_suspect_case_animal/indicate_the_illness_of_this_surveillance_report_animal
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 1 unique
+  Examples: ['Rabies']
+
+Anthrax: 117/117 populated (100.0%), 1 unique
+  Examples: ['Anthrax']
+
+Brucellosis: 164/164 populated (100.0%), 1 unique
+  Examples: ['Brucellosis']
+
+====================================================================================================
+89. type_of_suspect_case_animal/indicate_the_illness_of_this_surveillance_report_animal_signal
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+90. type_of_suspect_case_animal/type_of_sick_or_died_animal
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 10 unique
+  Examples: ['Cow', 'Dog (if it is rabies)', 'Sheep', 'Goat', 'Donky/Horse/Mule', 'Camel', 'Wild animal', 'Ox']
+
+Anthrax: 117/117 populated (100.0%), 7 unique
+  Examples: ['Cow', 'Camel', 'Goat', 'Ox', 'Sheep', 'Other specify', 'Donky/Horse/Mule']
+
+Brucellosis: 164/164 populated (100.0%), 6 unique
+  Examples: ['Ox', 'Cow', 'Goat', 'Sheep', 'Donky/Horse/Mule', 'Camel']
+
+====================================================================================================
+91. type_of_suspect_case_animal/type_of_sick_or_died_animal_other
+====================================================================================================
+
+Rabies: 1/159 populated (0.6%), 1 unique
+  Examples: ['Burning of Biting site']
+
+Anthrax: 2/117 populated (1.7%), 2 unique
+  Examples: ['Cattle, donkey and Shoats ( goats)', 't']
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+92. type_of_suspect_case_animal/dose_the_animal_has_owner
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 2 unique
+  Examples: ['Yes', 'No']
+
+Anthrax: 117/117 populated (100.0%), 2 unique
+  Examples: ['Yes', 'No']
+
+Brucellosis: 164/164 populated (100.0%), 2 unique
+  Examples: ['Yes', 'No']
+
+====================================================================================================
+93. type_of_suspect_case_animal/full_name_of_owner_of_the_animal
+====================================================================================================
+
+Rabies: 112/159 populated (70.4%), 110 unique
+  Examples: ['Lema Abdisa', 'Roba Godana', 'Boru Guyo', 'Konso Wariyo', 'Guru Kubsa', 'Gebreyes Fentaye', 'Abdishakur Aliyow wako', 'Etecha meresha']
+
+Anthrax: 109/117 populated (93.2%), 105 unique
+  Examples: ['Remadan defala', 'Hamed Mahammud', 'Nimar rudan', 'Beshir kemal', 'Peter chuol', 'Henok ermiyas', 'Husen wario Duba', 'Ruach Nit']
+
+Brucellosis: 150/164 populated (91.5%), 140 unique
+  Examples: ['Mohamed den', 'Koang matuet', 'John wiyual joack', 'Abduba Guro', 'Kedus Bikila', 'Getachew Bekele', 'Okidi agalli okach ', 'Peter ochan chol']
+
+====================================================================================================
+94. type_of_suspect_case_animal/treatment_immunization_status_of_the_case
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 2 unique
+  Examples: ['Not vaccinated', 'Vaccinated against the suspected disease']
+
+Anthrax: 117/117 populated (100.0%), 2 unique
+  Examples: ['Vaccinated against the suspected disease', 'Not vaccinated']
+
+Brucellosis: 164/164 populated (100.0%), 2 unique
+  Examples: ['Not vaccinated', 'Vaccinated against the suspected disease']
+
+====================================================================================================
+95. type_of_suspect_case_animal/if_it_is_epidemic_total_number_of_deaths
+====================================================================================================
+
+Rabies: 83/159 populated (52.2%), 10 unique
+  Examples: ['1.0', '0.0', '6.0', '2.0', '3.0', '4.0', '9.0', '10.0']
+
+Anthrax: 70/117 populated (59.8%), 16 unique
+  Examples: ['0.0', '2.0', '1.0', '12.0', '10.0', '5.0', '18.0', '11.0']
+
+Brucellosis: 128/164 populated (78.0%), 21 unique
+  Examples: ['0.0', '10.0', '1.0', '14.0', '2.0', '6.0', '16.0', '20.0']
+
+====================================================================================================
+96. type_of_suspect_case_animal/image
+====================================================================================================
+
+Rabies: 80/159 populated (50.3%), 80 unique
+  Examples: ['http://api.ona.io/api/v1/files/35388112?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1692964862510.jpg', 'http://api.ona.io/api/v1/files/34926996?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690546129310.jpg', 'http://api.ona.io/api/v1/files/34593317?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1689519195832.jpg', 'http://api.ona.io/api/v1/files/34593315?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1689519048134.jpg', 'http://api.ona.io/api/v1/files/34278932?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1688379595483.jpg', 'http://api.ona.io/api/v1/files/34243019?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1688028402393.jpg', 'http://api.ona.io/api/v1/files/34088829?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1687360561114.jpg', 'http://api.ona.io/api/v1/files/34083414?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1687339843336.jpg']
+
+Anthrax: 62/117 populated (53.0%), 62 unique
+  Examples: ['http://api.ona.io/api/v1/files/31288060?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1673530784507.jpg', 'http://api.ona.io/api/v1/files/31229639?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1673163432635.jpg', 'http://api.ona.io/api/v1/files/29687074?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1666351855362.jpg', 'http://api.ona.io/api/v1/files/29329755?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663581236835.jpg', 'http://api.ona.io/api/v1/files/29329754?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663572954452.jpg', 'http://api.ona.io/api/v1/files/29329751?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663571922626.jpg', 'http://api.ona.io/api/v1/files/29329750?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663571587152.jpg', 'http://api.ona.io/api/v1/files/28839475?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1662025889326.jpg']
+
+Brucellosis: 98/164 populated (59.8%), 98 unique
+  Examples: ['http://api.ona.io/api/v1/files/35521047?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1693986217420.jpg', 'http://api.ona.io/api/v1/files/35293219?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1692249971425.jpg', 'http://api.ona.io/api/v1/files/35293217?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690531753723.jpg', 'http://api.ona.io/api/v1/files/35012771?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1691317310115.jpg', 'http://api.ona.io/api/v1/files/34989598?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1691306822583.jpg', 'http://api.ona.io/api/v1/files/34950167?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690546723653.jpg', 'http://api.ona.io/api/v1/files/34811742?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690545933594.jpg', 'http://api.ona.io/api/v1/files/34811740?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690055411059.jpg']
+
+====================================================================================================
+97. status_of_the_case/means_of_identification_of_the_case
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 5 unique
+  Examples: ['Health Facility', 'Community gathering', 'House to house visit', 'Other specify', 'During campaign']
+
+Anthrax: 117/117 populated (100.0%), 5 unique
+  Examples: ['House to house visit', 'Community gathering', 'Animal Market place', 'Health Facility', 'Other specify']
+
+Brucellosis: 164/164 populated (100.0%), 7 unique
+  Examples: ['Other specify', 'House to house visit', 'Health Facility', 'Community gathering', 'During campaign', 'Spiritual and traditional healing center', 'Animal Market place']
+
+====================================================================================================
+98. status_of_the_case/means_of_identification_of_the_case_other
+====================================================================================================
+
+Rabies: 8/159 populated (5.0%), 8 unique
+  Examples: ['Public', 'Levistock office reported ', 'Cv', 'Community notification', 'Phone call from community', 'Kebele officialls', 'Psh', 'By   the owner ']
+
+Anthrax: 5/117 populated (4.3%), 5 unique
+  Examples: ['Vet. Post', 'Grassing area', 'Susbected Anthrax ', 'Sign & symptoms of a cattle', 'Town Road ']
+
+Brucellosis: 11/164 populated (6.7%), 8 unique
+  Examples: ['By asking couse of deth', 'Though the rood ', 'Through communication ', 'Through animal vets ', 'vets reported  the case ', 'Owner reporting', 'during Independate SS', 'Community notification']
+
+====================================================================================================
+99. status_of_the_case/means_of_notification
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 3 unique
+  Examples: ['Verbal', 'Telephone', 'Written']
+
+Anthrax: 117/117 populated (100.0%), 3 unique
+  Examples: ['Written', 'Verbal', 'Telephone']
+
+Brucellosis: 164/164 populated (100.0%), 3 unique
+  Examples: ['Verbal', 'Telephone', 'Written']
+
+====================================================================================================
+100. status_of_the_case/means_of_notification_other
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+101. status_of_the_case/the_case_identified_by_community_volunter_health_development_army
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 2 unique
+  Examples: ['No', 'Yes']
+
+Anthrax: 117/117 populated (100.0%), 2 unique
+  Examples: ['Yes', 'No']
+
+Brucellosis: 164/164 populated (100.0%), 2 unique
+  Examples: ['Yes', 'No']
+
+====================================================================================================
+102. status_of_the_case/name_of_the_reported_CV_or_HDA
+====================================================================================================
+
+Rabies: 117/159 populated (73.6%), 104 unique
+  Examples: ['Bagaja Morge ', 'Bagaja Morge', 'Adi Bonaya', 'Adi Bonaya ', 'Merimam Furre', 'Isack Hussein', 'Obese Arega', 'Nurto ma- alin ibrahim']
+
+Anthrax: 96/117 populated (82.1%), 84 unique
+  Examples: ['Marema  Halifa', 'Situ Atayib', 'Misra', 'Fadimo marik', 'Sefo', 'Nyakole zuor', 'Elpas milkiyas', 'Magammed Ahmed']
+
+Brucellosis: 123/164 populated (75.0%), 104 unique
+  Examples: ['Abdi ahmed', 'Nyakoap wuluoth', 'Elizabeth nyagoa ', 'Adi Bonaya', 'Ariet ojulu ', 'Nyaluak chuol', 'Nasro Abdilahi harun', 'Dida Halake']
+
+====================================================================================================
+103. status_of_the_case/sex_of_the_reported_CV_or_HDA
+====================================================================================================
+
+Rabies: 117/159 populated (73.6%), 2 unique
+  Examples: ['Male', 'Female']
+
+Anthrax: 96/117 populated (82.1%), 2 unique
+  Examples: ['Female', 'Male']
+
+Brucellosis: 123/164 populated (75.0%), 2 unique
+  Examples: ['Male', 'Female']
+
+====================================================================================================
+104. status_of_the_case/who_identified_the_case
+====================================================================================================
+
+Rabies: 42/159 populated (26.4%), 4 unique
+  Examples: ['Animal Health Technician', 'HW', 'HEW', 'Other specify']
+
+Anthrax: 21/117 populated (17.9%), 3 unique
+  Examples: ['Animal Health Technician', 'HEW', 'Other specify']
+
+Brucellosis: 41/164 populated (25.0%), 4 unique
+  Examples: ['Animal Health Technician', 'Other specify', 'HW', 'HEW']
+
+====================================================================================================
+105. status_of_the_case/who_identified_the_case_other
+====================================================================================================
+
+Rabies: 3/159 populated (1.9%), 3 unique
+  Examples: ['Community', 'Dr seid Mohammed', 'CCGpp']
+
+Anthrax: 1/117 populated (0.9%), 1 unique
+  Examples: ['Animal health assistant']
+
+Brucellosis: 5/164 populated (3.0%), 5 unique
+  Examples: ['CGPP field officer', 'Animal vets ', 'Vets ', 'GHSA/CGPP Filled Offiecre', 'CGPP/GHSA Staffe']
+
+====================================================================================================
+106. status_of_the_case/date_reported_by_CV_or_HDA
+====================================================================================================
+
+Rabies: 117/159 populated (73.6%), 85 unique
+  Examples: ['8/20/2023', '8/23/2023', '7/14/2023', '7/12/2023', '6/30/2023', '6/28/2023', '6/3/2023', '6/11/2023']
+
+Anthrax: 96/117 populated (82.1%), 80 unique
+  Examples: ['6/9/2023', '6/8/2023', '2/23/2023', '2/15/2023', '2/16/2023', '1/25/2023', '1/12/2023', '1/8/2023']
+
+Brucellosis: 123/164 populated (75.0%), 97 unique
+  Examples: ['9/6/2023', '8/8/2023', '8/5/2023', '8/20/2023', '8/4/2023', '7/6/2023', '6/3/2023', '6/28/2023']
+
+====================================================================================================
+107. status_of_the_case/name_of_health_facility_case_registered_at
+====================================================================================================
+
+Rabies: 152/159 populated (95.6%), 129 unique
+  Examples: ['Showara', 'Kancharo', 'Kancharo ', 'Dilo clinic ', 'Dilo magala ', 'M/51Animal Health post', 'Biyodelay ', 'Dire Dima hp']
+
+Anthrax: 117/117 populated (100.0%), 90 unique
+  Examples: ['Duli AHC', 'Abango AHP', 'Aydora', 'Bur-ukur animal hp', 'Germam', 'Kuerjanyang HP ', '1', 'Wargam ']
+
+Brucellosis: 160/164 populated (97.6%), 123 unique
+  Examples: ['So.edaye', 'Kuergeng HC ', 'Kancharo ', 'Nebar Keshmando', 'Nebar Keshemando', 'Itang HC ', 'Kuermachar', 'Dabus Animal Health post']
+
+====================================================================================================
+108. address_of_contact_person/reported_by
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 65 unique
+  Examples: ['Gizachew Alemnew', 'Abuna Mohammed ', 'Mulugeta Ayalew', 'Yohannes Abebe ', 'Hussein Aliyo', 'Dereje Tesissa', 'Abdulahi muhumed tahir ', 'Tesfaye Nigusse']
+
+Anthrax: 117/117 populated (100.0%), 50 unique
+  Examples: ['Amana Manjor', 'Beti fasil', 'Mohamed Abdikadir kutub', 'Philip pal', 'Kam zekiyos nega', 'Yaballo ', 'Etsegenet Endrias ', 'Abobo']
+
+Brucellosis: 164/164 populated (100.0%), 53 unique
+  Examples: ['Fatuma mohamed', 'Philip pal', 'Philip pal ', 'Abuna Mohammed ', 'Mulugeta Ayalew', 'Alamo gora ', 'Gog woreda', 'Mohamed Abdikadir Kutub']
+
+====================================================================================================
+109. address_of_contact_person/position
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 55 unique
+  Examples: ['CGPP Officer', 'Coordinator ', 'Coordinator', 'Woreda CM ', 'Officer', 'CGP&GHSP field  officr', 'S officer ', 'CGPP officer']
+
+Anthrax: 117/117 populated (100.0%), 41 unique
+  Examples: ['EPI officer', 'EPI Officer', 'C/M', 'Surveillance project officer', 'EPI officer ', 'EGBS BO CGPP officer ', 'Coordinator', 'Coordinator ']
+
+Brucellosis: 164/164 populated (100.0%), 58 unique
+  Examples: ['Hew', 'EPI officer ', 'Coordinator ', 'Coordinator', 'Assistant field officer ', 'Field officer', 'Surveillance project officer', 'Community moblizer']
+
+====================================================================================================
+110. address_of_contact_person/date_of_the_report
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 111 unique
+  Examples: ['8/16/2023', '8/25/2023', '8/23/2023', '8/24/2023', '6/17/2023', '7/15/2023', '7/13/2023', '7/1/2023']
+
+Anthrax: 117/117 populated (100.0%), 79 unique
+  Examples: ['6/10/2023', '2/23/2023', '2/19/2023', '2/16/2023', '1/29/2023', '1/12/2023', '1/7/2023', '12/17/2022']
+
+Brucellosis: 164/164 populated (100.0%), 119 unique
+  Examples: ['9/6/2023', '8/9/2023', '8/6/2023', '8/23/2023', '8/4/2023', '7/20/2023', '7/7/2023', '7/24/2023']
+
+====================================================================================================
+111. address_of_contact_person/telephone_number_of_contact
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 47 unique
+  Examples: ['918409715', '910940881', '910994088', '911385330', '910009379', '916325912', '910581343', '938211804']
+
+Anthrax: 117/117 populated (100.0%), 37 unique
+  Examples: ['911956587', '912355828', '915625818', '912005717', '910305719', '916609660', '909965991', '905191698']
+
+Brucellosis: 164/164 populated (100.0%), 35 unique
+  Examples: ['921312159', '912005717', '910940881', '911385330', '953647145', '947096165', '915625818', '920413701']
+
+====================================================================================================
+112. address_of_contact_person/email_address_of_contact
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 72 unique
+  Examples: ['gizalem2008@gmail.com', 'Sarabuna2010@gmail.com', 'sarabuna2010@gmail.com', 'mulugetaayalewbirru@wv.org', 'eldianayoha@yahoo.com ', 'husenaliyow10@gmail.com', 'shuniderejetesisa@gmail.com', 'abdulahi21019@gmail.com']
+
+Anthrax: 117/117 populated (100.0%), 54 unique
+  Examples: ['Amana.Manjor@rescue.org', 'B', 'Mahamedabdikadir5337@gmail.com', 'philip.pal@rescue.org ', 'Kam', 'sarabuna2010@gmail.com', 'tsegiendrias@gmail.com ', 'philip.pal@eescue.org']
+
+Brucellosis: 164/164 populated (100.0%), 65 unique
+  Examples: ['Tewahadeb@gmail.com', 'philip.pal@rescue.org', 'Sarabuna2010@gmail.com', 'mulugetaayalewbirru@wv.org', 'alamogora5@gmail.com', 'mulugetaayalewbirru@wvi.org', 'amerwarapoora141@gmail.com', 'mahamedabdikadir5337@gmail.com ']
+
+====================================================================================================
+113. address_of_contact_person/name_of_implementing_partner
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 10 unique
+  Examples: ['WVE', 'EOC', 'HCS/CRS', 'PC', 'BDTCS/CRS', 'OWDA', 'EECMY', 'AMREF']
+
+Anthrax: 117/117 populated (100.0%), 10 unique
+  Examples: ['IRC', 'HCS/CRS', 'OWDA', 'EECMY', 'EOC', 'AMREF', 'BDTCS/CRS', 'WVE']
+
+Brucellosis: 164/164 populated (100.0%), 8 unique
+  Examples: ['HCS/CRS', 'IRC', 'EOC', 'WVE', 'EECMY', 'OWDA', 'BDTCS/CRS', 'PC']
+
+====================================================================================================
+114. meta/instanceID
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 159 unique
+  Examples: ['uuid:6caed7d3-d951-4cf8-8e6a-9f56780a1382', 'uuid:16c25fdf-cf51-4ed3-8eaa-bd13981047f5', 'uuid:354fe1ef-3af0-4287-bee1-5166dd6dfdc2', 'uuid:7f3ec425-2e21-4b26-8b48-01e264030d36', 'uuid:9f3756a6-b150-4205-90bf-b811458f419f', 'uuid:18e19645-1552-4b36-9c25-c0f031c1cdfa', 'uuid:8cb7a0ee-82b4-4e01-9a34-a273ee9085fd', 'uuid:12301237-923a-4ec9-97c2-753fe55d24a6']
+
+Anthrax: 117/117 populated (100.0%), 117 unique
+  Examples: ['uuid:fc6fea9b-92a6-4630-8d11-c70457f4c944', 'uuid:d20fcf90-af9a-4b65-9e6e-ced3f9b68b26', 'uuid:8035aa5d-3e43-4b1c-b5da-378aed7475d8', 'uuid:7763226e-444b-4750-a078-3c0b9af0e2f3', 'uuid:eb942de1-5140-4c25-83d8-4cabe8126b33', 'uuid:26112cb8-d29b-4d31-8b16-67db4ecb694a', 'uuid:78cb8775-69d8-4c5a-be70-378616f77fe9', 'uuid:3704d2fd-abb8-455a-8e28-ab32f9e415f2']
+
+Brucellosis: 164/164 populated (100.0%), 164 unique
+  Examples: ['uuid:72966541-9466-4b54-8ec2-72d416bc611f', 'uuid:9e08d249-ef68-457a-9d1d-63ce30ad7ee2', 'uuid:d12f5c7b-ebed-410e-b3ff-f5d76f074ac1', 'uuid:dda88d7a-8909-4160-9181-5719ceb7811a', 'uuid:eca1b5f1-db7c-4184-b92d-c72a496e147b', 'uuid:b84f203c-3043-4948-9f0c-4adee2318422', 'uuid:99c7aef4-5cd2-428a-a67a-9e615c0a215d', 'uuid:68a0c58d-193d-4440-8ddb-8009199ae73d']
+
+====================================================================================================
+115. _id
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 159 unique
+  Examples: ['120851949', '120754925', '120754923', '120754922', '120754123', '120754122', '120754121', '120754119']
+
+Anthrax: 117/117 populated (100.0%), 117 unique
+  Examples: ['115608058', '115608057', '109680522', '109479313', '109389768', '108794507', '107925567', '107735249']
+
+Brucellosis: 164/164 populated (100.0%), 164 unique
+  Examples: ['121444456', '121337255', '121337220', '120754124', '120627282', '120627279', '119587508', '119504038']
+
+====================================================================================================
+116. _uuid
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 159 unique
+  Examples: ['6caed7d3-d951-4cf8-8e6a-9f56780a1382', '16c25fdf-cf51-4ed3-8eaa-bd13981047f5', '354fe1ef-3af0-4287-bee1-5166dd6dfdc2', '7f3ec425-2e21-4b26-8b48-01e264030d36', '9f3756a6-b150-4205-90bf-b811458f419f', '18e19645-1552-4b36-9c25-c0f031c1cdfa', '8cb7a0ee-82b4-4e01-9a34-a273ee9085fd', '12301237-923a-4ec9-97c2-753fe55d24a6']
+
+Anthrax: 117/117 populated (100.0%), 117 unique
+  Examples: ['fc6fea9b-92a6-4630-8d11-c70457f4c944', 'd20fcf90-af9a-4b65-9e6e-ced3f9b68b26', '8035aa5d-3e43-4b1c-b5da-378aed7475d8', '7763226e-444b-4750-a078-3c0b9af0e2f3', 'eb942de1-5140-4c25-83d8-4cabe8126b33', '26112cb8-d29b-4d31-8b16-67db4ecb694a', '78cb8775-69d8-4c5a-be70-378616f77fe9', '3704d2fd-abb8-455a-8e28-ab32f9e415f2']
+
+Brucellosis: 164/164 populated (100.0%), 164 unique
+  Examples: ['72966541-9466-4b54-8ec2-72d416bc611f', '9e08d249-ef68-457a-9d1d-63ce30ad7ee2', 'd12f5c7b-ebed-410e-b3ff-f5d76f074ac1', 'dda88d7a-8909-4160-9181-5719ceb7811a', 'eca1b5f1-db7c-4184-b92d-c72a496e147b', 'b84f203c-3043-4948-9f0c-4adee2318422', '99c7aef4-5cd2-428a-a67a-9e615c0a215d', '68a0c58d-193d-4440-8ddb-8009199ae73d']
+
+====================================================================================================
+117. _submission_time
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 154 unique
+  Examples: ['2023-08-29T09:45:33', '2023-08-28T05:03:22', '2023-08-28T05:03:21', '2023-08-28T04:07:03', '2023-08-28T04:07:02', '2023-08-28T04:07:01', '2023-08-03T08:43:46', '2023-07-19T18:19:30']
+
+Anthrax: 117/117 populated (100.0%), 115 unique
+  Examples: ['2023-06-11T21:46:32', '2023-02-23T12:12:52', '2023-02-19T08:08:42', '2023-02-16T08:54:01', '2023-02-01T10:28:49', '2023-01-12T13:42:13', '2023-01-08T07:58:16', '2023-01-04T06:48:29']
+
+Brucellosis: 164/164 populated (100.0%), 161 unique
+  Examples: ['2023-09-06T07:49:05', '2023-09-05T10:32:36', '2023-09-05T10:32:27', '2023-08-28T04:07:04', '2023-08-25T11:51:47', '2023-08-25T11:51:46', '2023-08-08T08:37:37', '2023-08-06T13:49:34']
+
+====================================================================================================
+118. _date_modified
+====================================================================================================
+
+Rabies: 109/159 populated (68.6%), 107 unique
+  Examples: ['2023-08-29T09:45:33', '2023-08-28T05:03:22', '2023-08-28T05:03:21', '2023-08-28T04:07:03', '2023-08-28T04:07:02', '2023-08-28T04:07:01', '2023-08-03T08:43:46', '2023-07-19T18:19:30']
+
+Anthrax: 97/117 populated (82.9%), 95 unique
+  Examples: ['2023-06-11T21:46:32', '2023-02-23T12:12:52', '2023-02-19T08:08:42', '2023-02-16T08:54:01', '2023-02-01T10:28:49', '2023-01-12T13:42:13', '2023-01-08T07:58:16', '2023-01-04T06:48:29']
+
+Brucellosis: 150/164 populated (91.5%), 147 unique
+  Examples: ['2023-09-06T07:49:05', '2023-09-05T10:32:36', '2023-09-05T10:32:27', '2023-08-28T04:07:04', '2023-08-25T11:51:47', '2023-08-25T11:51:46', '2023-08-08T08:37:37', '2023-08-06T13:49:34']
+
+====================================================================================================
+119. _tags
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+120. _notes
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+121. _version
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 2 unique
+  Examples: ['202105000000.0', '201912000000.0']
+
+Anthrax: 117/117 populated (100.0%), 3 unique
+  Examples: ['202105000000.0', '201912000000.0', '201911000000.0']
+
+Brucellosis: 164/164 populated (100.0%), 3 unique
+  Examples: ['202105000000.0', '201912000000.0', '201911000000.0']
+
+====================================================================================================
+122. _duration
+====================================================================================================
+
+Rabies: 0/159 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Anthrax: 0/117 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+Brucellosis: 0/164 populated (0.0%), 0 unique
+  Examples: [EMPTY]
+
+====================================================================================================
+123. _submitted_by
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 1 unique
+  Examples: ['tenager_tadesse']
+
+Anthrax: 117/117 populated (100.0%), 1 unique
+  Examples: ['tenager_tadesse']
+
+Brucellosis: 164/164 populated (100.0%), 1 unique
+  Examples: ['tenager_tadesse']
+
+====================================================================================================
+124. _total_media
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 2 unique
+  Examples: ['1', '0']
+
+Anthrax: 117/117 populated (100.0%), 2 unique
+  Examples: ['0', '1']
+
+Brucellosis: 164/164 populated (100.0%), 2 unique
+  Examples: ['1', '0']
+
+====================================================================================================
+125. _media_count
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 2 unique
+  Examples: ['1', '0']
+
+Anthrax: 117/117 populated (100.0%), 2 unique
+  Examples: ['0', '1']
+
+Brucellosis: 164/164 populated (100.0%), 2 unique
+  Examples: ['1', '0']
+
+====================================================================================================
+126. _media_all_received
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 1 unique
+  Examples: ['True']
+
+Anthrax: 117/117 populated (100.0%), 1 unique
+  Examples: ['True']
+
+Brucellosis: 164/164 populated (100.0%), 2 unique
+  Examples: ['True', 'False']
+
+====================================================================================================
+127. _xform_id
+====================================================================================================
+
+Rabies: 159/159 populated (100.0%), 1 unique
+  Examples: ['466122']
+
+Anthrax: 117/117 populated (100.0%), 1 unique
+  Examples: ['466122']
+
+Brucellosis: 164/164 populated (100.0%), 1 unique
+  Examples: ['466122']

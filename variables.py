@@ -7,11 +7,22 @@ from pathlib import Path
 
 DATA_DIR = Path("/Users/belayneshmossiekndie/Desktop/Haqila/analysis/data")
 
+OUTPUT_FILE = Path(
+    "/Users/belayneshmossiekndie/Desktop/Haqila/analysis/all_columns_output.txt"
+)
+
 files = {
     "Rabies": DATA_DIR / "CGPP_Rabies_Animal.xlsx",
     "Anthrax": DATA_DIR / "CGPP_Anthrax_Animal.xlsx",
     "Brucellosis": DATA_DIR / "CGPP_Brucellosis_Animal.xlsx",
 }
+
+# Store everything here
+output = []
+
+def write(text=""):
+    print(text)
+    output.append(str(text))
 
 # --------------------------------------------------
 # 2. Load data
@@ -22,52 +33,61 @@ datasets = {}
 for disease, path in files.items():
     df = pd.read_excel(path)
     datasets[disease] = df
-    print(f"{disease}: {df.shape[0]} rows × {df.shape[1]} columns")
+    write(f"{disease}: {df.shape[0]} rows × {df.shape[1]} columns")
 
-# Check that all have the same columns
 columns = list(datasets["Rabies"].columns)
 
-print("\nSame columns across all three datasets:")
-print(
+write("\nSame columns across all three datasets:")
+write(
     list(datasets["Rabies"].columns)
     == list(datasets["Anthrax"].columns)
     == list(datasets["Brucellosis"].columns)
 )
 
 # --------------------------------------------------
-# 3. Print ALL 127 columns
+# 3. Print ALL columns
 # --------------------------------------------------
 
 for i, col in enumerate(columns, start=1):
 
-    print("\n" + "=" * 100)
-    print(f"{i}. {col}")
-    print("=" * 100)
+    write("\n" + "=" * 100)
+    write(f"{i}. {col}")
+    write("=" * 100)
 
     for disease, df in datasets.items():
 
         series = df[col]
 
-        # Treat empty strings as missing
-        non_missing = series.notna() & (series.astype(str).str.strip() != "")
+        non_missing = series.notna() & (
+            series.astype(str).str.strip() != ""
+        )
+
         n_present = non_missing.sum()
         completeness = n_present / len(df) * 100
 
         unique_values = series[non_missing].astype(str).unique()
 
-        print(
+        write(
             f"\n{disease}: "
             f"{n_present}/{len(df)} populated "
             f"({completeness:.1f}%), "
             f"{len(unique_values)} unique"
         )
 
-        # Show up to 8 actual values
         examples = list(unique_values[:8])
 
         if examples:
-            print("  Examples:", examples)
+            write("  Examples: " + str(examples))
         else:
-            print("  Examples: [EMPTY]")
+            write("  Examples: [EMPTY]")
 
-input("\nPress Enter to finish...")
+# --------------------------------------------------
+# 4. Save COMPLETE output
+# --------------------------------------------------
+
+OUTPUT_FILE.write_text("\n".join(output), encoding="utf-8")
+
+print("\n" + "=" * 100)
+print(f"Complete output saved to:")
+print(OUTPUT_FILE)
+print("=" * 100)
