@@ -83,7 +83,7 @@ for i, col in enumerate(columns, start=1):
 
 # --------------------------------------------------
 # 4. Save COMPLETE output
-# --------------------------------------------------
+
 
 OUTPUT_FILE.write_text("\n".join(output), encoding="utf-8")
 
