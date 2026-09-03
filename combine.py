@@ -1,18 +1,19 @@
 from pathlib import Path
 import pandas as pd
 
-# --------------------------------------------------
+
+# ============================================================
 # 1. Paths
-# --------------------------------------------------
+# ============================================================
 
 DATA_DIR = Path("/Users/belayneshmossiekndie/Desktop/Haqila/analysis/data")
 OUTPUT_DIR = DATA_DIR.parent / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
-# --------------------------------------------------
-# 2. Files to combine
-# --------------------------------------------------
+# ============================================================
+# 2. Input files
+# ============================================================
 
 files = {
     "Rabies": DATA_DIR / "CGPP_Rabies_Animal.xlsx",
@@ -21,9 +22,9 @@ files = {
 }
 
 
-# --------------------------------------------------
-# 3. Original columns we selected
-# --------------------------------------------------
+# ============================================================
+# 3. Variables to keep
+# ============================================================
 
 selected_columns = {
     "Region":
@@ -55,15 +56,29 @@ selected_columns = {
 
     "Community_HDA_Identified":
         "status_of_the_case/the_case_identified_by_community_volunter_health_development_army",
-
-    "Animal_Image":
-        "type_of_suspect_case_animal/animal_image",
 }
 
 
-# --------------------------------------------------
-# 4. Load and combine
-# --------------------------------------------------
+# ============================================================
+# 4. Find image column automatically
+# ============================================================
+
+def find_image_column(columns):
+
+    candidates = []
+
+    for col in columns:
+        col_lower = str(col).lower()
+
+        if "image" in col_lower:
+            candidates.append(col)
+
+    return candidates
+
+
+# ============================================================
+# 5. Load datasets
+# ============================================================
 
 datasets = []
 
@@ -73,9 +88,12 @@ for disease, file_path in files.items():
 
     df = pd.read_excel(file_path)
 
-    print(f"  Original shape: {df.shape}")
+    print(f"Original shape: {df.shape}")
 
-    # Check that all required columns exist
+    # --------------------------------------------------------
+    # Check required tabular columns
+    # --------------------------------------------------------
+
     missing = [
         original_name
         for original_name in selected_columns.values()
@@ -83,15 +101,62 @@ for disease, file_path in files.items():
     ]
 
     if missing:
-        print("  Missing columns:")
+        print("\nMissing columns:")
         for col in missing:
-            print(f"    {col}")
-        raise ValueError(f"Required columns missing from {disease} dataset.")
+            print(f"  {col}")
 
-    # Select variables
+        print("\nAvailable columns containing relevant words:")
+        for col in df.columns:
+            if any(
+                word in str(col).lower()
+                for word in ["region", "gps", "animal", "owner",
+                             "immun", "identif", "notif", "community"]
+            ):
+                print(f"  {col}")
+
+        raise ValueError(
+            f"Required columns missing from {disease} dataset."
+        )
+
+    # --------------------------------------------------------
+    # Find image column
+    # --------------------------------------------------------
+
+    image_candidates = find_image_column(df.columns)
+
+    print("\nImage column candidates:")
+    for col in image_candidates:
+        print(f"  {col}")
+
+    if len(image_candidates) == 0:
+        print("WARNING: No image column found.")
+        image_column = None
+
+    elif len(image_candidates) == 1:
+        image_column = image_candidates[0]
+
+    else:
+        # Prefer a column specifically containing animal + image
+        animal_image = [
+            col for col in image_candidates
+            if "animal" in str(col).lower()
+        ]
+
+        if animal_image:
+            image_column = animal_image[0]
+        else:
+            image_column = image_candidates[0]
+
+    if image_column:
+        print(f"Using image column: {image_column}")
+
+    # --------------------------------------------------------
+    # Select tabular variables
+    # --------------------------------------------------------
+
     clean = df[list(selected_columns.values())].copy()
 
-    # Rename variables
+    # Rename
     clean.rename(
         columns={
             original: new
@@ -100,18 +165,27 @@ for disease, file_path in files.items():
         inplace=True
     )
 
-    # Add disease label
-    clean.insert(0, "Disease", disease)
+    # --------------------------------------------------------
+    # Add image column
+    # --------------------------------------------------------
 
-    # Add host
-    clean.insert(1, "Host", "Animal")
+    if image_column:
+        clean["Animal_Image"] = df[image_column]
+    else:
+        clean["Animal_Image"] = pd.NA
+
+    # --------------------------------------------------------
+    # Add disease label
+    # --------------------------------------------------------
+
+    clean.insert(0, "Disease", disease)
 
     datasets.append(clean)
 
 
-# --------------------------------------------------
-# 5. Combine datasets
-# --------------------------------------------------
+# ============================================================
+# 6. Combine
+# ============================================================
 
 combined = pd.concat(
     datasets,
@@ -119,50 +193,50 @@ combined = pd.concat(
 )
 
 
-# --------------------------------------------------
-# 6. Basic cleaning
-# --------------------------------------------------
+# ============================================================
+# 7. Basic cleaning
+# ============================================================
 
-# Convert blank strings to missing values
-combined = combined.replace(r"^\s*$", pd.NA, regex=True)
-
-# Remove completely empty rows
-combined = combined.dropna(
-    how="all",
-    subset=[col for col in combined.columns if col not in ["Disease", "Host"]]
+# Empty strings -> missing
+combined = combined.replace(
+    r"^\s*$",
+    pd.NA,
+    regex=True
 )
 
-# Reset index
 combined.reset_index(drop=True, inplace=True)
 
 
-# --------------------------------------------------
-# 7. Print summary
-# --------------------------------------------------
+# ============================================================
+# 8. Summary
+# ============================================================
 
 print("\n" + "=" * 60)
-print("COMBINED CLEAN DATASET")
+print("COMBINED DATASET")
 print("=" * 60)
 
-print(f"Total records: {len(combined)}")
-print(f"Total variables: {len(combined.columns)}")
+print(f"Rows: {len(combined)}")
+print(f"Columns: {len(combined.columns)}")
 
 print("\nDisease distribution:")
 print(combined["Disease"].value_counts())
 
-print("\nMissing values:")
-missing_summary = combined.isna().sum()
-missing_summary = missing_summary[missing_summary > 0]
+print("\nImage availability:")
 
-if len(missing_summary) > 0:
-    print(missing_summary)
-else:
-    print("No missing values.")
+image_available = combined["Animal_Image"].notna().sum()
+image_missing = combined["Animal_Image"].isna().sum()
+
+print(f"  Image reference available: {image_available}")
+print(f"  No image reference:        {image_missing}")
+
+print("\nColumns:")
+for i, col in enumerate(combined.columns, 1):
+    print(f"{i:2}. {col}")
 
 
-# --------------------------------------------------
-# 8. Save
-# --------------------------------------------------
+# ============================================================
+# 9. Save
+# ============================================================
 
 csv_path = OUTPUT_DIR / "CGPP_Animal_Clean_Combined.csv"
 xlsx_path = OUTPUT_DIR / "CGPP_Animal_Clean_Combined.xlsx"
@@ -175,9 +249,9 @@ print(csv_path)
 print(xlsx_path)
 
 
-# --------------------------------------------------
-# 9. Show first rows
-# --------------------------------------------------
+# ============================================================
+# 10. Preview
+# ============================================================
 
 print("\nFirst 5 rows:")
 print(combined.head().to_string(index=False))
