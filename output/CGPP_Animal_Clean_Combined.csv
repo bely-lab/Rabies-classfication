@@ -1,0 +1,441 @@
+Disease,Region,Latitude,Longitude,Altitude,Animal_Type,Animal_Ownership,Immunization_Status,Identification_Method,Notification_Method,Community_HDA_Identified,Animal_Image
+Rabies,Benshangul Gumuz,9.7597603,34.7283177,1497.0,Cow,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/35388112?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1692964862510.jpg
+Rabies,Oromia,4.2575759,37.7005874,924.0,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Oromia,4.2576041,37.7005419,931.0,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Oromia,4.2575593,37.7005998,934.0,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Oromia,4.4869829,37.7326389,1104.0,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Oromia,4.4881663,37.7331627,1101.0,Sheep,Yes,Not vaccinated,Health Facility,Verbal,Yes,
+Rabies,Oromia,4.2572427,37.6985552,941.0,Goat,Yes,Not vaccinated,Other specify,Verbal,No,
+Rabies,Oromia,4.2572115,37.6985701,943.0,Goat,Yes,Not vaccinated,Health Facility,Telephone,No,
+Rabies,Benshangul Gumuz,9.8389086,34.7920353,1405.0,Goat,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/34926996?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690546129310.jpg
+Rabies,Somali,10.757146,42.5745144,700.3,Dog (if it is rabies),No,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Somali,4.8134707,39.1996636,901.1,Dog (if it is rabies),No,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/34593317?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1689519195832.jpg
+Rabies,Somali,4.8103204,39.2000101,901.9,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/34593315?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1689519048134.jpg
+Rabies,Benshangul Gumuz,10.77051,36.2624728,1496.5,Cow,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/34278932?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1688379595483.jpg
+Rabies,Somali,5.5977807,44.202919,196.5,Sheep,No,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/34243019?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1688028402393.jpg
+Rabies,SNNP,6.2573482,35.52183,1437.2,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/34088829?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1687360561114.jpg
+Rabies,Benshangul Gumuz,9.7598422,34.7282195,1488.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,No,http://api.ona.io/api/v1/files/34083414?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1687339843336.jpg
+Rabies,SNNP,5.8750397,36.816584,1163.300659,Goat,Yes,Not vaccinated,During campaign,Written,No,
+Rabies,Somali,3.5439793,39.0490946,1145.474,Cow,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/33843750?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1686479393569.jpg
+Rabies,Somali,4.4422958,39.9906982,0.0,Dog (if it is rabies),Yes,Not vaccinated,Health Facility,Verbal,Yes,http://api.ona.io/api/v1/files/33821275?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1686321975019.jpg
+Rabies,Gambella,8.194238,34.2679633,425.1,Dog (if it is rabies),No,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/33588820?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1685370020579.jpg
+Rabies,Somali,4.443212,39.9881748,1214.6,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/33445289?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1685005772916.jpg
+Rabies,Benshangul Gumuz,11.1643151,36.3422966,1019.3,Cow,Yes,Not vaccinated,House to house visit,Telephone,No,http://api.ona.io/api/v1/files/32881407?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1682583564413.jpg
+Rabies,Somali,4.4401088,39.9877852,1202.750366,Camel,Yes,Not vaccinated,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/32582552?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1680938740152.jpg
+Rabies,Somali,4.4401135,39.9877861,1204.227905,Wild animal,No,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/32582551?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1680938401622.jpg
+Rabies,Somali,4.440107,39.9878153,1205.746948,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/32582543?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1680937807225.jpg
+Rabies,Somali,4.440123,39.9877826,1189.800537,Wild animal,No,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/32582540?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1680936964468.jpg
+Rabies,Gambella,8.3325104,33.9578007,444.1,Dog (if it is rabies),No,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Benshangul Gumuz,10.6331117,35.663865,2506.0,Donky/Horse/Mule,Yes,Not vaccinated,During campaign,Verbal,No,
+Rabies,Benshangul Gumuz,10.6331117,35.663867,2506.0,Cow,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/32339339?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1679492370956.jpg
+Rabies,Benshangul Gumuz,10.621925,35.6649052,2530.2,Cow,Yes,Not vaccinated,House to house visit,Verbal,No,http://api.ona.io/api/v1/files/32336726?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1678890539198.jpg
+Rabies,Benshangul Gumuz,10.3505772,34.7659229,0.0,Dog (if it is rabies),Yes,Vaccinated against the suspected disease,House to house visit,Telephone,No,
+Rabies,Oromia,3.5466242,39.0522784,1105.599976,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/31898456?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677136498410.jpg
+Rabies,Oromia,3.65471,38.9596469,1178.0,Sheep,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Oromia,3.6547068,38.9596221,1177.6,Sheep,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,8.1934081,34.2672235,435.3,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/31768676?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1676618800017.jpg
+Rabies,Gambella,8.1916235,34.2666742,418.8,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/31759438?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1676474758625.jpg
+Rabies,Gambella,8.1914678,34.2667365,434.0,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/31699717?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1676055516509.jpg
+Rabies,Somali,4.2852792,40.0237812,1134.091554,Goat,Yes,Not vaccinated,During campaign,Telephone,Yes,http://api.ona.io/api/v1/files/22606954?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1634197307300.jpg
+Rabies,Somali,4.3324958,40.0004022,1157.115684,Wild animal,No,Not vaccinated,During campaign,Telephone,Yes,http://api.ona.io/api/v1/files/22607085?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1634196496348.jpg
+Rabies,Somali,3.7884892,39.2821808,994.7389868,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/19463689?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1615123731220.jpg
+Rabies,Somali,3.7924367,39.2769964,1006.444267,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/19476443?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1615123532472.jpg
+Rabies,Somali,3.7924143,39.2769615,999.9434782,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/19476432?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1615123345169.jpg
+Rabies,Somali,3.7924288,39.2769524,995.480586,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/19476422?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1615122292567.jpg
+Rabies,Somali,3.7924293,39.2769908,993.0503803,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/19476419?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1615122044270.jpg
+Rabies,SNNP,7.0568113,35.5001767,1687.0,Dog (if it is rabies),No,Vaccinated against the suspected disease,Health Facility,Written,Yes,
+Rabies,Oromia,4.1369829,37.8941055,910.8114018,Ox,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Oromia,4.4863055,37.7321423,1084.080669,Dog (if it is rabies),No,Not vaccinated,Community gathering,Verbal,Yes,
+Rabies,Oromia,3.5807286,39.0385098,1160.5,Sheep,Yes,Not vaccinated,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/31115009?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1672128760271.jpg
+Rabies,Oromia,3.5943355,39.0303615,1103.927117,Sheep,Yes,Not vaccinated,House to house visit,Verbal,No,
+Rabies,Oromia,3.6078188,38.8361987,1247.618042,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Oromia,3.6078432,38.8361938,1249.617229,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,SNNP,6.871997,35.5241108,1605.18,Sheep,Yes,Vaccinated against the suspected disease,House to house visit,Written,No,
+Rabies,Benshangul Gumuz,10.6218302,35.6120224,2379.6,Wild animal,No,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/29699566?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1665983150133.jpg
+Rabies,Benshangul Gumuz,10.6215908,35.6121886,2384.4,Cow,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/29699562?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1665982536899.jpg
+Rabies,Benshangul Gumuz,10.6213966,35.6120034,2383.4,Dog (if it is rabies),Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/29699559?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1665982900046.jpg
+Rabies,Oromia,4.0317923,38.3457526,1694.400024,Dog (if it is rabies),No,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Benshangul Gumuz,11.4192784,36.4535544,1118.9,Cat  (if it is rabies),Yes,Vaccinated against the suspected disease,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/29121822?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663472047341.jpg
+Rabies,Benshangul Gumuz,10.0206393,35.2110364,1166.7,Sheep,Yes,Vaccinated against the suspected disease,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.2026382,35.0769856,1047.5,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/28675873?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1660846085481.jpg
+Rabies,Gambella,8.1882111,34.2621921,406.2,Goat,Yes,Not vaccinated,House to house visit,Verbal,No,http://api.ona.io/api/v1/files/28602391?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1660710999305.jpg
+Rabies,Benshangul Gumuz,10.1804518,34.8517576,1049.0,Dog (if it is rabies),Yes,Vaccinated against the suspected disease,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/28262017?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1657262144882.jpg
+Rabies,Benshangul Gumuz,10.180345,34.8517019,1083.0,Dog (if it is rabies),Yes,Vaccinated against the suspected disease,House to house visit,Written,Yes,
+Rabies,Gambella,8.3330922,33.9631856,0.0,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Somali,9.0110977,40.3058313,0.0,Dog (if it is rabies),Yes,Not vaccinated,Health Facility,Verbal,Yes,
+Rabies,Gambella,8.2690503,34.5834657,0.0,Dog (if it is rabies),No,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Benshangul Gumuz,10.35608235,34.76150779,1141.0,Dog (if it is rabies),No,Not vaccinated,House to house visit,Telephone,No,
+Rabies,SNNP,5.7867668,36.5672899,1412.0,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Written,No,
+Rabies,SNNP,5.8757562,36.8173194,1162.0,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Somali,4.744416667,39.23339,856.8,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/24800976?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1645004086740.jpg
+Rabies,Benshangul Gumuz,10.0794793,34.5499464,1541.900024,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/24345165?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1642221318669.jpg
+Rabies,Benshangul Gumuz,10.38910038,34.72200355,1202.0,Dog (if it is rabies),No,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Gambella,7.2335908,35.318376,0.0,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/23699512?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1638952449882.jpg
+Rabies,Gambella,7.2490453,35.3023343,0.0,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/23692594?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1638874046088.jpg
+Rabies,Gambella,7.2357806,35.3189424,0.0,Dog (if it is rabies),No,Vaccinated against the suspected disease,Community gathering,Written,Yes,http://api.ona.io/api/v1/files/23668500?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1638783731336.jpg
+Rabies,Gambella,7.2357806,35.3189424,0.0,Dog (if it is rabies),No,Vaccinated against the suspected disease,Community gathering,Telephone,Yes,
+Rabies,Gambella,7.2462963,35.3231718,0.0,Dog (if it is rabies),No,Not vaccinated,Other specify,Written,Yes,http://api.ona.io/api/v1/files/23665879?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1638865067489.jpg
+Rabies,Gambella,7.2344171,35.3185458,0.58228248,Dog (if it is rabies),Yes,Vaccinated against the suspected disease,Health Facility,Written,No,
+Rabies,Oromia,3.868095,38.68783833,1261.5,Dog (if it is rabies),Yes,Not vaccinated,Health Facility,Telephone,No,
+Rabies,Somali,6.9798653,46.4092756,395.4302342,Other specify,No,Not vaccinated,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/22537034?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1630162017766.jpg
+Rabies,Gambella,8.2552989,34.5934038,445.0440099,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,8.2553001,34.5934037,444.9474076,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,No,
+Rabies,Oromia,5.1036437,37.3098131,1353.987665,Donky/Horse/Mule,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/21949384?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1631007963063.jpg
+Rabies,SNNP,7.0537861,35.507458,0.0,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/21857152?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1630509228432.jpg
+Rabies,SNNP,7.0537861,35.507458,0.0,Sheep,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/21857150?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1630508688070.jpg
+Rabies,SNNP,7.0709443,35.6947791,0.0,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/21857140?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1630508074125.jpg
+Rabies,Somali,9.5559139,41.3841326,1095.615494,Dog (if it is rabies),No,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Somali,9.5572799,41.3864122,1116.588541,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Somali,9.544336,41.4520464,1150.25991,Dog (if it is rabies),Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Rabies,SNNP,6.2534643,35.5248866,0.0,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/21629923?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1629454674550.jpg
+Rabies,Gambella,8.2552578,34.593424,444.9340109,Cow,No,Not vaccinated,Health Facility,Telephone,No,http://api.ona.io/api/v1/files/21541203?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1628864807707.jpg
+Rabies,Gambella,8.2552591,34.5934179,445.3360626,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Somali,9.5616782,41.510234,1116.726326,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Somali,9.6128342,41.6569727,1092.506953,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Oromia,3.82473,38.55830833,1307.4,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Oromia,3.893775,38.56777833,1303.0,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Telephone,No,
+Rabies,Somali,9.6080464,41.3900168,990.6165722,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/20803957?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1624408011706.jpg
+Rabies,SNNP,6.258473,35.5205121,0.0,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/20743372?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623144068038.jpg
+Rabies,Oromia,5.0662439,37.3907122,1481.812908,Wild animal,No,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/20701400?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623737663090.jpg
+Rabies,Oromia,3.9087359,38.4741008,1351.660645,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Oromia,3.5375685,39.0506115,1081.9,Goat,Yes,Not vaccinated,Health Facility,Telephone,No,http://api.ona.io/api/v1/files/26472781?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1651049904097.jpg
+Rabies,Oromia,3.5375076,39.050666,1095.2,Goat,Yes,Vaccinated against the suspected disease,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/26446176?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1651050080423.jpg
+Rabies,Somali,4.77173,41.0846418,708.9248514,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/20579625?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622715735032.jpg
+Rabies,Somali,4.7716531,41.0846497,711.1123259,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/20579620?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622778750891.jpg
+Rabies,Oromia,3.5500923,39.0473165,1181.4,Goat,No,Not vaccinated,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/20281717?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1620725568263.jpg
+Rabies,SNNP,6.2519771,35.5256386,1436.679751,Dog (if it is rabies),Yes,Not vaccinated,Health Facility,Written,No,
+Rabies,SNNP,6.2519742,35.5256362,1437.631946,Dog (if it is rabies),Yes,Not vaccinated,Health Facility,Written,No,
+Rabies,Benshangul Gumuz,10.06249833,34.55253833,1585.9,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Oromia,3.6748825,38.559499,1305.812704,Donky/Horse/Mule,Yes,Not vaccinated,Other specify,Telephone,Yes,
+Rabies,SNNP,5.777325,36.56523833,1339.9,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Written,No,
+Rabies,Benshangul Gumuz,10.2457788,34.48555402,1230.0,Goat,Yes,Not vaccinated,Health Facility,Written,No,
+Rabies,SNNP,6.1783235,35.5834675,2389.539346,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Verbal,Yes,
+Rabies,SNNP,6.1783335,35.5834853,2385.47733,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,SNNP,6.1660186,35.5883847,2379.555534,Sheep,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Gambella,8.2369926,34.583282,440.962895,Sheep,Yes,Not vaccinated,Other specify,Telephone,No,
+Rabies,Benshangul Gumuz,9.95424187,34.65820741,1375.0,Cow,Yes,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/18801903?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1611220067009.jpg
+Rabies,Gambella,7.2883675,35.3122753,1311.5,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,7.2784852,35.3213927,1258.6,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,7.2105299,35.2881041,1207.6,Sheep,Yes,Not vaccinated,Community gathering,Telephone,No,
+Rabies,Gambella,7.2102784,35.2853867,1204.7,Ox,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Oromia,3.738793333,38.58019,1401.3,Dog (if it is rabies),No,Not vaccinated,Other specify,Verbal,No,
+Rabies,Oromia,3.867816667,38.69047167,1272.6,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Rabies,Somali,4.3729898,39.9791588,1185.576715,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/22607140?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1634196062635.jpg
+Rabies,Somali,6.887025,45.56846833,501.0,Goat,No,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/18052624?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1604171320369.jpg
+Rabies,Gambella,8.253956667,34.58374333,447.0,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,8.237221667,34.58365333,458.1,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,8.237066667,34.583495,458.5,Dog (if it is rabies),Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,8.236935,34.583375,458.6,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Gambella,8.236931667,34.58332167,458.6,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,SNNP,7.055081667,35.49912167,1670.5,Donky/Horse/Mule,Yes,Not vaccinated,Community gathering,Written,No,
+Rabies,SNNP,7.05504,35.49912167,1671.2,Donky/Horse/Mule,Yes,Not vaccinated,Other specify,Verbal,No,
+Rabies,Gambella,7.239801667,35.32313167,1315.8,Cow,No,Not vaccinated,House to house visit,Telephone,No,http://api.ona.io/api/v1/files/16836351?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1594446371193.jpg
+Rabies,Gambella,7.210995,35.28552333,1236.1,Ox,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15899394?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1590991455906.jpg
+Rabies,Somali,3.53747115,39.05274765,1086.383301,Donky/Horse/Mule,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15879379?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1588854339457.jpg
+Rabies,Somali,3.53752481,39.05273357,1089.135254,Donky/Horse/Mule,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15879373?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1588854785861.jpg
+Rabies,Gambella,7.234685,35.32719833,1322.5,Goat,Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/15455646?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1586946827043.jpg
+Rabies,Gambella,7.234063333,35.31967,1320.9,Dog (if it is rabies),No,Not vaccinated,Community gathering,Telephone,Yes,
+Rabies,Somali,5.80068,43.53263833,297.4,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,Somali,5.59504,44.196465,254.6,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15419623?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585987803143.jpg
+Rabies,Somali,3.84970804,39.08073902,1097.839478,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15361765?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585316969649.jpg
+Rabies,Somali,3.85431313,39.06618288,1108.914551,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15361763?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585316194549.jpg
+Rabies,Somali,3.85845792,39.06575179,1110.447754,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15361757?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585315803942.jpg
+Rabies,Somali,3.8584228,39.06609019,1095.729858,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15361755?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585315495297.jpg
+Rabies,Somali,3.73575077,39.18263051,1068.473999,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15361753?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1584864206523.jpg
+Rabies,Somali,3.53750141,39.05253066,1078.423584,Donky/Horse/Mule,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15361751?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585377758785.jpg
+Rabies,Somali,3.76804987,39.36364318,960.809082,Donky/Horse/Mule,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15348244?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1584867659488.jpg
+Rabies,Somali,5.588305,44.21041167,229.5,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15327367?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1584779083654.jpg
+Rabies,SNNP,4.802313333,36.04974833,341.2,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Rabies,SNNP,4.802301667,36.04975333,372.9,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Gambella,7.236496667,35.31799333,1374.5,Cow,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/14633826?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1580720659436.jpg
+Rabies,Benshangul Gumuz,10.052475,35.295465,864.0,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.05249,35.295455,863.9,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.05250333,35.29546667,863.9,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.05249833,35.29546333,863.7,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.052535,35.29547,863.5,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.052535,35.29550167,863.3,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.05255833,35.29547,863.1,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,
+Rabies,Benshangul Gumuz,10.05249833,35.29549167,869.1,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/14353025?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1577757439537.jpg
+Rabies,Benshangul Gumuz,9.959105,35.34252,931.9,Dog (if it is rabies),No,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/14353005?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1577674270702.jpg
+Rabies,Benshangul Gumuz,9.959156667,35.34247167,931.8,Dog (if it is rabies),Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/14352984?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1577673936227.jpg
+Anthrax,Benshangul Gumuz,10.0578143,34.5408964,0.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Written,Yes,
+Anthrax,Benshangul Gumuz,10.0510172,34.5377808,0.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Written,Yes,
+Anthrax,Somali,9.8549956,41.3695732,779.0,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Somali,5.0714958,44.9136169,179.6999969,Cow,No,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Anthrax,Somali,9.5618222,41.5107039,1136.0,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Gambella,8.332709,33.9594978,0.0,Cow,Yes,Vaccinated against the suspected disease,Community gathering,Telephone,Yes,
+Anthrax,Gambella,7.2413215,35.3221499,1331.800049,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/31288060?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1673530784507.jpg
+Anthrax,Oromia,4.2297992,38.7262451,1256.4,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/31229639?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1673163432635.jpg
+Anthrax,Gambella,8.3322205,33.9581488,385.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Anthrax,SNNP,6.8876017,35.41942,1062.2,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,
+Anthrax,Somali,9.5399445,41.4322838,1103.0,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.531024,41.414666,1166.0,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Gambella,8.3315087,33.9579342,417.5,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Anthrax,Gambella,8.3337822,33.9567742,405.5,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,Gambella,7.9086581,34.5341797,450.3,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/29687074?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1666351855362.jpg
+Anthrax,Somali,7.2028932,46.6652194,412.3432617,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/29329755?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663581236835.jpg
+Anthrax,Somali,7.1999836,46.6644105,439.5281982,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/29329754?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663572954452.jpg
+Anthrax,Somali,7.2028923,46.6652268,437.7520752,Camel,Yes,Not vaccinated,Animal Market place,Telephone,Yes,http://api.ona.io/api/v1/files/29329751?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663571922626.jpg
+Anthrax,Somali,7.2028849,46.6652024,422.3961182,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/29329750?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663571587152.jpg
+Anthrax,Oromia,4.1371788,38.9291004,1386.5,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/28839475?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1662025889326.jpg
+Anthrax,Gambella,8.2495662,34.5994608,148.8,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,SNNP,5.7867145,36.5674033,1408.17041,Goat,Yes,Not vaccinated,Health Facility,Written,No,
+Anthrax,Gambella,8.3225868,33.9668296,0.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Anthrax,Gambella,7.2164259,35.29409,1233.4,Ox,Yes,Vaccinated against the suspected disease,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/28208272?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1658581630603.jpg
+Anthrax,Gambella,7.2140306,35.2912956,1234.4,Cow,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/28208262?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1658580952411.jpg
+Anthrax,Gambella,7.2112767,35.28952,1217.5,Ox,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/28208250?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1658580063533.jpg
+Anthrax,Benshangul Gumuz,11.2948884,36.2439309,0.0,Ox,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/28142072?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1658283465333.jpg
+Anthrax,Somali,9.5551595,41.3820507,1103.0,Sheep,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Oromia,4.0838378,39.1143775,1339.0,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/27321925?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1655624439166.jpg
+Anthrax,Oromia,5.110265,37.3568685,1332.14502,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,Benshangul Gumuz,10.0163735,34.5270203,1514.479858,Ox,Yes,Not vaccinated,Other specify,Verbal,No,http://api.ona.io/api/v1/files/27162993?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1654127807551.jpg
+Anthrax,Somali,9.5553665,41.3833858,0.0,Sheep,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,5.0818627,45.1309889,199.3999939,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/26371669?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1651214512864.jpg
+Anthrax,Somali,5.0672619,44.9784083,164.8414307,Goat,No,Vaccinated against the suspected disease,Other specify,Telephone,Yes,http://api.ona.io/api/v1/files/25948939?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1648823688913.jpg
+Anthrax,SNNP,5.7867476,36.5673933,1409.0,Cow,Yes,Not vaccinated,House to house visit,Written,No,
+Anthrax,SNNP,5.7867555,36.5674314,1393.0,Cow,Yes,Not vaccinated,House to house visit,Written,No,
+Anthrax,SNNP,5.78675,36.5674178,1392.0,Cow,Yes,Not vaccinated,House to house visit,Written,No,
+Anthrax,SNNP,5.7866778,36.5674978,1404.099976,Cow,Yes,Not vaccinated,House to house visit,Written,No,
+Anthrax,Gambella,8.3322784,33.9634626,0.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,Somali,7.4374613,46.6439125,508.5,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/25178410?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646402024430.jpg
+Anthrax,Somali,7.4479677,46.1691143,500.8432617,Camel,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/25155878?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646396247110.jpg
+Anthrax,Somali,7.4478481,46.1689555,463.7818604,Camel,Yes,Vaccinated against the suspected disease,Animal Market place,Telephone,Yes,http://api.ona.io/api/v1/files/25155877?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646396008017.jpg
+Anthrax,Somali,7.2064294,46.5224965,433.6984863,Camel,Yes,Not vaccinated,Animal Market place,Telephone,Yes,http://api.ona.io/api/v1/files/25155876?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646381706459.jpg
+Anthrax,Benshangul Gumuz,10.0522017,34.6556736,1518.775024,Ox,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/24911465?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1645687091350.jpg
+Anthrax,Somali,7.4375489,46.645573,472.1,Sheep,No,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/24846642?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1645336661926.jpg
+Anthrax,Gambella,8.3335382,33.9611857,0.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,Somali,5.933662495,43.52627224,256.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/24632836?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1643804592718.jpg
+Anthrax,Somali,5.300241,44.6848506,204.0,Cow,Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/23834712?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1639375268516.jpg
+Anthrax,Somali,9.5402671,41.4261599,1126.940448,Sheep,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.5618047,41.5100613,1126.097859,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.6105403,41.6686297,1099.182694,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,SNNP,7.0338664,35.5438477,1556.792216,Cow,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,5.0170018,42.0767609,223.0,Other specify,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.6131453,41.663147,1088.135699,Camel,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.6129049,41.6583268,1122.972524,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,SNNP,6.9946923,35.5916557,1405.427752,Sheep,Yes,Vaccinated against the suspected disease,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/21420266?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1628159982920.jpg
+Anthrax,SNNP,6.9970553,35.5902594,1411.179792,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/21420084?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1628158944320.jpg
+Anthrax,Somali,7.5028495,45.639198,604.7787541,Camel,Yes,Not vaccinated,Health Facility,Telephone,Yes,
+Anthrax,Somali,9.6097792,41.6346016,1092.668717,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Somali,8.0280328,46.5953061,623.241419,Camel,Yes,Not vaccinated,Other specify,Telephone,Yes,http://api.ona.io/api/v1/files/20828098?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1624613176869.jpg
+Anthrax,Somali,9.6068729,41.3884591,980.2546518,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,SNNP,6.258473,35.5205121,0.0,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/20743374?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623144405820.jpg
+Anthrax,Somali,9.6098069,41.6732859,1100.38921,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/20721556?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623839837606.jpg
+Anthrax,Somali,4.513061667,39.86234667,1175.8,Camel,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/20719369?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623740777336.jpg
+Anthrax,Somali,4.513385,39.86231333,1165.8,Camel,Yes,Not vaccinated,Health Facility,Verbal,Yes,http://api.ona.io/api/v1/files/20718836?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623825822052.jpg
+Anthrax,Somali,4.512463333,39.86309667,1208.7,Camel,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/20718988?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623742148079.jpg
+Anthrax,Somali,9.5710301,41.3795613,1062.450902,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/20628588?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623289077425.jpg
+Anthrax,Somali,9.5709386,41.3795294,1098.948756,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/20628583?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1623288849144.jpg
+Anthrax,Gambella,7.2540795,35.3236481,1313.0,Ox,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/26292153?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1650779669018.jpg
+Anthrax,Gambella,8.3322537,33.9580267,408.2,Cow,Yes,Vaccinated against the suspected disease,Community gathering,Telephone,Yes,
+Anthrax,Somali,4.5420859,41.0303206,801.202482,Camel,Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/20579717?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622726733145.jpg
+Anthrax,Somali,4.599877,40.9448585,840.4038777,Goat,Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/20579715?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622722247842.jpg
+Anthrax,Somali,4.59827,40.9996247,864.2990683,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/20579691?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622729358899.jpg
+Anthrax,Somali,4.546646,41.0286217,795.9787349,Camel,Yes,Not vaccinated,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/20579632?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622727240516.jpg
+Anthrax,Somali,4.6047864,40.9434263,844.3815036,Goat,Yes,Not vaccinated,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/20579630?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622721805978.jpg
+Anthrax,Somali,4.866764,42.7637274,342.4773061,Camel,Yes,Not vaccinated,Health Facility,Verbal,Yes,http://api.ona.io/api/v1/files/20549370?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622711381762.jpg
+Anthrax,Benshangul Gumuz,10.0271851,35.2266949,0.0,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/20394488?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1608577685446.jpg
+Anthrax,Somali,4.8313688,41.1879718,689.7716823,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/20379235?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1621420357553.jpg
+Anthrax,Somali,5.104901,42.2955027,250.1832995,Camel,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/20372095?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1621509079208.jpg
+Anthrax,Somali,5.1488696,42.260383,276.5193108,Camel,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/20371970?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1621516492746.jpg
+Anthrax,Oromia,3.5501489,39.0474147,1181.6,Goat,Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/20281050?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1620725217819.jpg
+Anthrax,Somali,9.5573574,41.3864457,1083.92945,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/19937846?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1618552660265.jpg
+Anthrax,Somali,9.5573256,41.3864878,1078.951816,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/19937845?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1618552490024.jpg
+Anthrax,SNNP,6.165921667,35.58777,2309.3,Ox,Yes,Vaccinated against the suspected disease,House to house visit,Written,No,
+Anthrax,SNNP,6.175341667,35.584705,2539.8,Ox,Yes,Vaccinated against the suspected disease,Community gathering,Written,No,
+Anthrax,SNNP,6.252363333,35.52600833,1441.5,Ox,Yes,Vaccinated against the suspected disease,House to house visit,Written,No,
+Anthrax,SNNP,6.165938333,35.587795,2309.1,Ox,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,SNNP,6.174965,35.58334333,2358.6,Ox,No,Not vaccinated,Community gathering,Written,No,
+Anthrax,SNNP,6.31746,35.62087667,1830.4,Ox,No,Not vaccinated,Community gathering,Written,No,
+Anthrax,SNNP,6.317458333,35.62087833,1829.7,Ox,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,SNNP,6.317456667,35.62087,1830.1,Ox,Yes,Vaccinated against the suspected disease,Community gathering,Written,No,
+Anthrax,Benshangul Gumuz,10.6094479,36.0823244,1697.173736,Goat,Yes,Not vaccinated,Animal Market place,Telephone,No,http://api.ona.io/api/v1/files/19554879?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1615915372666.jpg
+Anthrax,Somali,9.5557432,41.3827538,1095.359927,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.5739849,41.6378263,1183.0,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.6186049,41.6557009,1083.0,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Anthrax,Somali,9.6576081,41.6184456,1029.0,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.5584859,41.3816668,1087.257765,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.661628,41.6172903,1018.0,Camel,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/18667505?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1609422886800.jpg
+Anthrax,Somali,9.6070885,41.6327671,1104.0,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,Somali,9.607131,41.6328013,1109.0,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/18667504?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1609423090396.jpg
+Anthrax,Somali,9.5591328,41.3813043,1076.0,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.6184687,41.6556314,1083.0,Other specify,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Somali,9.3317865,40.9195692,1247.124197,Ox,No,Not vaccinated,Other specify,Verbal,Yes,http://api.ona.io/api/v1/files/23101900?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1636897488957.jpg
+Anthrax,Benshangul Gumuz,10.0275708,35.2276251,0.0,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/18648368?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1608666266549.jpg
+Anthrax,Somali,5.29562437,44.69425606,231.0,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/17789019?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1602738703559.jpg
+Anthrax,SNNP,4.9715496,36.4863032,0.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Anthrax,Somali,3.9819944,39.95560309,759.7573242,Camel,Yes,Not vaccinated,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/16111438?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1591858993021.jpg
+Anthrax,SNNP,4.802298333,36.049665,376.7,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Anthrax,Gambella,7.23488,35.31916667,1307.9,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/15276435?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1582973727854.jpg
+Anthrax,Somali,9.294726667,40.84027167,1232.3,Ox,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Anthrax,Gambella,7.236495,35.317945,1333.6,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Anthrax,Gambella,7.237008333,35.31777,1376.7,Goat,No,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/14633824?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1580720071815.jpg
+Anthrax,Somali,6.93021198,46.69376961,341.5482178,Camel,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/14576905?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1579760794825.jpg
+Anthrax,Somali,6.92999572,46.69404221,334.2233887,Camel,Yes,Not vaccinated,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/14576889?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1579760016585.jpg
+Anthrax,Somali,6.93004797,46.69403102,338.6626587,Camel,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/14576884?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1579759601413.jpg
+Anthrax,Somali,6.93002368,46.69398208,347.6772461,Camel,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/14576874?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1579758682615.jpg
+Anthrax,Somali,5.0810288,45.1326423,0.0,Donky/Horse/Mule,No,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/14405786?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1578493023861.jpg
+Brucellosis,Somali,9.2504497,40.7763851,1296.5,Ox,Yes,Not vaccinated,Other specify,Verbal,Yes,http://api.ona.io/api/v1/files/35521047?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1693986217420.jpg
+Brucellosis,Gambella,8.3319283,33.9582067,395.1,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Brucellosis,Gambella,8.331875,33.9581721,395.2,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,
+Brucellosis,Oromia,4.4868487,37.7325674,1096.0,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,
+Brucellosis,Benshangul Gumuz,9.7597095,34.7280719,1471.0,Goat,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/35293219?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1692249971425.jpg
+Brucellosis,Benshangul Gumuz,9.7597262,34.728029,1479.0,Cow,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/35293217?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690531753723.jpg
+Brucellosis,Gambella,8.1914046,34.2667609,396.9,Goat,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/35012771?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1691317310115.jpg
+Brucellosis,Gambella,8.3319423,33.9594908,549.5,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/34989598?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1691306822583.jpg
+Brucellosis,Benshangul Gumuz,9.7636543,34.7875914,1411.0,Goat,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/34950167?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690546723653.jpg
+Brucellosis,Benshangul Gumuz,9.8158023,34.6946964,1421.0,Goat,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/34811742?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690545933594.jpg
+Brucellosis,Benshangul Gumuz,9.8158977,34.6947588,1421.0,Goat,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/34811740?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1690055411059.jpg
+Brucellosis,Gambella,7.616961667,34.39735167,519.6,Goat,No,Not vaccinated,House to house visit,Verbal,No,http://api.ona.io/api/v1/files/34649110?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1689699955983.jpg
+Brucellosis,Gambella,8.271415,34.5786117,460.6,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Somali,5.0715289,44.9136354,168.1,Goat,No,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/34263678?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1688296737863.jpg
+Brucellosis,Oromia,3.8934049,38.5644908,1297.1,Goat,Yes,Vaccinated against the suspected disease,During campaign,Telephone,No,
+Brucellosis,Oromia,3.7404667,38.5790633,1347.4,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.1942696,34.2678735,399.5,Goat,Yes,Vaccinated against the suspected disease,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/34134462?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1687526278124.jpg
+Brucellosis,Oromia,3.7482611,38.5806107,1315.9,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,10.622035,35.6649533,2514.7,Cow,No,Vaccinated against the suspected disease,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/34121097?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1687504612085.jpg
+Brucellosis,Gambella,8.1936279,34.267738,450.6,Sheep,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/34076828?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1687335752431.jpg
+Brucellosis,Somali,5.3562452,40.7338446,1074.289939,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/34058118?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1686828472690.jpg
+Brucellosis,Somali,5.0744583,44.9123233,228.3,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/33788517?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1686149317732.jpg
+Brucellosis,Somali,5.0726178,44.9138679,177.5999908,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/33788499?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1686153490115.jpg
+Brucellosis,Gambella,8.2688276,34.5827737,0.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,11.2964541,36.2418115,0.0,Sheep,Yes,Vaccinated against the suspected disease,Health Facility,Verbal,Yes,http://api.ona.io/api/v1/files/33400333?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1684912533489.jpg
+Brucellosis,Somali,5.6065156,44.1781584,217.5,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/32878222?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1682567816207.jpg
+Brucellosis,Somali,5.5902368,44.2070711,213.0,Donky/Horse/Mule,No,Not vaccinated,Other specify,Telephone,Yes,http://api.ona.io/api/v1/files/32878221?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1682493190980.jpg
+Brucellosis,Gambella,8.3319375,33.9579516,408.0,Goat,Yes,Not vaccinated,Spiritual and traditional healing center,Telephone,Yes,
+Brucellosis,Gambella,8.3317969,33.9580811,408.4,Cow,Yes,Not vaccinated,Community gathering,Verbal,Yes,
+Brucellosis,Gambella,8.271327,34.5785876,375.4,Cow,No,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,11.2928113,36.2374887,0.0,Cow,No,Vaccinated against the suspected disease,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/32470893?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1680315142005.jpg
+Brucellosis,Oromia,4.8898795,38.1088554,1665.761185,Goat,Yes,Not vaccinated,House to house visit,Telephone,No,http://api.ona.io/api/v1/files/32458839?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1680243902009.jpg
+Brucellosis,Somali,5.597051,44.2028981,226.5,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/32455394?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1680206695494.jpg
+Brucellosis,Oromia,3.9069341,38.850156,1184.465767,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Somali,5.8012668,43.5330908,282.5378418,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/32403537?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677769640730.jpg
+Brucellosis,Somali,5.8011125,43.5327598,252.75177,Goat,Yes,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/32403536?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677769432155.jpg
+Brucellosis,Somali,5.8011063,43.5327618,252.866333,Goat,Yes,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/32403535?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677769075918.jpg
+Brucellosis,Somali,5.8011019,43.5327743,255.7460938,Goat,Yes,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/32403534?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677768692369.jpg
+Brucellosis,Somali,5.8011184,43.5327453,257.3170166,Goat,Yes,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/32403533?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677768314769.jpg
+Brucellosis,Benshangul Gumuz,10.5783817,35.71328,2512.5,Cow,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/32336725?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1678890310660.jpg
+Brucellosis,Benshangul Gumuz,10.5782827,35.7132873,2510.9,Goat,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/32336724?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1678890098230.jpg
+Brucellosis,Oromia,3.9082199,38.4706946,1342.9,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,3.908185,38.4707052,1344.1,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.2158707,38.7142829,1274.371647,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/31889997?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677423326943.jpg
+Brucellosis,Oromia,4.21808,38.7172014,1273.747751,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/31889996?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1677422641565.jpg
+Brucellosis,Oromia,4.1180547,39.0495497,1321.346968,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Oromia,4.3366304,37.6443522,953.8797888,Goat,Yes,Not vaccinated,Health Facility,Telephone,Yes,
+Brucellosis,Oromia,4.3366778,37.6441755,953.7186877,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Oromia,4.336649,37.6443777,942.0463347,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.4896124,37.7333463,1094.115771,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Oromia,3.6552514,38.9597897,1177.2,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Gambella,8.1921173,34.2674257,426.2,Goat,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/31593584?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1675334774180.jpg
+Brucellosis,Gambella,8.1935591,34.2673969,408.6,Goat,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/31591490?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1675317090231.jpg
+Brucellosis,Gambella,8.332709,33.9594978,0.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.4893958,37.7332924,1107.17853,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.4898753,37.7332973,1093.393105,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.3321063,33.958055,401.7,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Gambella,8.1942859,34.2679454,429.9,Goat,Yes,Not vaccinated,During campaign,Verbal,No,http://api.ona.io/api/v1/files/31165071?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1672494627894.jpg
+Brucellosis,Oromia,3.6860616,38.9036141,1176.82705,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,3.5766416,39.0416426,1165.4,Cow,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/31115008?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1672128008209.jpg
+Brucellosis,Oromia,3.6078152,38.8362698,1248.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,3.5943216,39.0303733,1105.085359,Cow,Yes,Not vaccinated,House to house visit,Telephone,No,
+Brucellosis,Oromia,3.6861133,38.9035904,1175.912143,Camel,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,SNNP,7.0566917,35.5009812,1688.822,Goat,Yes,Vaccinated against the suspected disease,Community gathering,Verbal,Yes,
+Brucellosis,Gambella,8.1465994,34.1925438,440.8,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/30541395?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1669906488993.jpg
+Brucellosis,Gambella,8.1975116,34.2623921,708.5,Cow,Yes,Not vaccinated,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/30438120?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1669563778741.jpg
+Brucellosis,Gambella,8.2553573,34.5932242,446.8999939,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,11.2976694,36.2432528,0.0,Sheep,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/29979693?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1666347526751.jpg
+Brucellosis,Gambella,8.330726,33.9581525,33.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/29927306?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1667400576338.jpg
+Brucellosis,Benshangul Gumuz,10.57241167,34.35844167,718.1,Goat,Yes,Vaccinated against the suspected disease,Health Facility,Telephone,No,http://api.ona.io/api/v1/files/29877798?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1666854686710.jpg
+Brucellosis,Gambella,8.1922635,34.2652546,1085.1,Goat,Yes,Not vaccinated,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/29859428?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1667045127016.jpg
+Brucellosis,Benshangul Gumuz,10.53549,34.50985,1289.2,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Gambella,8.1983681,34.2671752,497.4,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/29700736?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1666442460713.jpg
+Brucellosis,Benshangul Gumuz,10.0527877,34.5382843,1552.3,Goat,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Benshangul Gumuz,10.0527619,34.5381545,1531.6,Goat,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Gambella,7.9128521,34.5581123,491.5,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,No,http://api.ona.io/api/v1/files/29656278?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1666251942707.jpg
+Brucellosis,Benshangul Gumuz,10.7668958,36.26005,1508.9,Sheep,Yes,Not vaccinated,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/29545374?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1665552142109.jpg
+Brucellosis,Benshangul Gumuz,10.7757298,36.2625303,1480.5,Sheep,Yes,Not vaccinated,Health Facility,Verbal,Yes,http://api.ona.io/api/v1/files/29499559?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1665420064643.jpg
+Brucellosis,Benshangul Gumuz,10.57294667,34.35890167,698.9,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/29461924?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1665038614786.jpg
+Brucellosis,Oromia,4.0314817,38.34581,1522.9,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.2222686,38.7224985,1282.8,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.2636679,34.5887891,456.1000061,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.1967072,34.2650389,402.7,Goat,Yes,Not vaccinated,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/29159423?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1663667134915.jpg
+Brucellosis,Oromia,4.1432027,38.9300542,1383.3,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/28838591?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1662021674876.jpg
+Brucellosis,Oromia,4.1236138,38.9266041,1409.2,Goat,No,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/28838338?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1662020548269.jpg
+Brucellosis,Oromia,4.1365343,38.9291305,0.0,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/28838245?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1662016978513.jpg
+Brucellosis,Oromia,4.1237171,38.9265385,1396.4,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/28838231?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1662019466637.jpg
+Brucellosis,Gambella,8.2496117,34.5991933,156.1,Cow,Yes,Not vaccinated,Community gathering,Telephone,Yes,
+Brucellosis,Gambella,8.2655148,34.589957,0.0,Goat,No,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.2003268,34.3161823,426.2,Goat,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/28753359?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1661511562018.jpg
+Brucellosis,Gambella,8.1994568,34.2615158,391.7,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,No,http://api.ona.io/api/v1/files/28602396?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1660655406665.jpg
+Brucellosis,Benshangul Gumuz,10.0527311,34.53827,1533.9,Sheep,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Benshangul Gumuz,10.052518,34.5382772,1533.9,Goat,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Gambella,8.3225868,33.9668296,0.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,11.3006316,36.2394664,0.0,Sheep,No,Vaccinated against the suspected disease,House to house visit,Verbal,No,http://api.ona.io/api/v1/files/28196469?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1658580900748.jpg
+Brucellosis,Gambella,7.8974092,34.5391188,472.2,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/27820338?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1657005602475.jpg
+Brucellosis,Gambella,7.8972475,34.5388902,449.0,Goat,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/27816470?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1656997692317.jpg
+Brucellosis,Gambella,8.1915208,34.2667513,415.3,Goat,Yes,Not vaccinated,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/27781204?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1656787007655.jpg
+Brucellosis,Oromia,4.1747384,38.1264093,1604.059082,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.1747425,38.126389,1588.584229,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.1747335,38.1263743,1579.388428,Goat,Yes,Not vaccinated,Health Facility,Telephone,Yes,
+Brucellosis,Somali,9.2556116,40.788642,0.0,Goat,Yes,Not vaccinated,Health Facility,Telephone,Yes,http://api.ona.io/api/v1/files/27239658?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1655274610599.jpg
+Brucellosis,Gambella,8.3348902,33.9643449,0.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.2690503,34.5834657,0.0,Cow,Yes,Not vaccinated,Community gathering,Verbal,Yes,
+Brucellosis,Gambella,8.2690503,34.5834657,0.0,Cow,Yes,Not vaccinated,Community gathering,Verbal,Yes,
+Brucellosis,Benshangul Gumuz,10.0413503,34.5460117,1510.798462,Cow,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/27163000?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1652794578676.jpg
+Brucellosis,Somali,5.0818223,45.133931,193.1172485,Donky/Horse/Mule,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/26011652?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1649307129772.jpg
+Brucellosis,Oromia,4.1126924,38.6037625,1386.884033,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.1127032,38.6037742,1384.663086,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/25578835?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1647580862567.jpg
+Brucellosis,Oromia,4.1127095,38.603777,1385.527222,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Oromia,4.1126801,38.6037687,1383.624756,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/25578833?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1647580470211.jpg
+Brucellosis,Oromia,4.1127196,38.6037388,1387.274658,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.3322784,33.9634626,0.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Somali,6.6726476,46.2637666,367.170105,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/25156053?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646479268703.jpg
+Brucellosis,Somali,6.6704608,46.2627019,376.3702393,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/25155901?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646479343670.jpg
+Brucellosis,Somali,6.6703186,46.2626497,377.5988159,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/25155881?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646464211284.jpg
+Brucellosis,Somali,6.6703827,46.2625802,363.3872681,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/25155880?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646464043116.jpg
+Brucellosis,Somali,6.6700581,46.2631097,374.6612549,Goat,Yes,Not vaccinated,Community gathering,Telephone,Yes,http://api.ona.io/api/v1/files/25155879?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1646463889232.jpg
+Brucellosis,Somali,5.1209781,41.8618796,266.0,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/24781894?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1644437953988.jpg
+Brucellosis,Benshangul Gumuz,10.7746612,36.2623492,1515.0,Sheep,No,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/24631318?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1643796181296.jpg
+Brucellosis,Gambella,8.2745368,34.5845188,0.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Gambella,8.1926146,34.2710004,418.0551606,Goat,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/24504214?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1643193541973.jpg
+Brucellosis,Gambella,8.1706594,34.2360509,447.0367332,Goat,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/24171874?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1641368716679.jpg
+Brucellosis,Benshangul Gumuz,11.2964844,36.2421724,1199.4,Sheep,Yes,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/24037700?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1640048727952.jpg
+Brucellosis,Benshangul Gumuz,11.296863,36.2416316,1203.2,Cow,No,Not vaccinated,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/24037540?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1640048370841.jpg
+Brucellosis,Gambella,8.1926433,34.2647617,416.1092968,Goat,Yes,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/22398419?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1633428116986.jpg
+Brucellosis,Benshangul Gumuz,9.8462789,34.6848002,1452.115182,Cow,Yes,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/22218425?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1632460488489.jpg
+Brucellosis,Benshangul Gumuz,9.8462877,34.6847876,1451.351077,Cow,Yes,Not vaccinated,Other specify,Telephone,No,http://api.ona.io/api/v1/files/22218424?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1632460105122.jpg
+Brucellosis,Benshangul Gumuz,9.8463192,34.6847623,1451.872427,Cow,Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/22218423?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1632459758654.jpg
+Brucellosis,Benshangul Gumuz,9.8462549,34.6849126,1453.604362,Cow,Yes,Not vaccinated,Other specify,Telephone,Yes,http://api.ona.io/api/v1/files/22218422?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1632459471556.jpg
+Brucellosis,Benshangul Gumuz,9.8462284,34.6848444,1449.49069,Cow,Yes,Not vaccinated,Community gathering,Telephone,No,http://api.ona.io/api/v1/files/22218421?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1632458997573.jpg
+Brucellosis,Oromia,4.1908137,38.8212778,1328.189382,Cow,Yes,Not vaccinated,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/22208381?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1632412003805.jpg
+Brucellosis,Oromia,4.1735927,38.8677721,1407.152722,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/22208380?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1632400738432.jpg
+Brucellosis,Gambella,7.895663,34.5297991,426.0959512,Goat,Yes,Not vaccinated,Community gathering,Written,Yes,
+Brucellosis,Gambella,8.2553683,34.5902774,459.1895747,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Somali,5.2957143,44.6943023,194.2020863,Goat,Yes,Not vaccinated,House to house visit,Telephone,No,http://api.ona.io/api/v1/files/20960732?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1625574989749.jpg
+Brucellosis,Benshangul Gumuz,10.536917,34.5121847,1301.935407,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/20595867?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1622643003654.jpg
+Brucellosis,Gambella,8.2487104,34.5876577,0.0,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,10.2173916,35.0874633,1112.0,Sheep,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Benshangul Gumuz,10.2175609,35.0874194,1068.1,Sheep,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Gambella,8.3323202,33.958132,416.7,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,10.5869,36.18468833,1596.5,Cow,No,Not vaccinated,Other specify,Verbal,No,http://api.ona.io/api/v1/files/20312342?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1620733999058.jpg
+Brucellosis,Benshangul Gumuz,10.67331167,36.15747167,1184.7,Goat,No,Not vaccinated,Animal Market place,Verbal,No,http://api.ona.io/api/v1/files/20312337?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1620631921903.jpg
+Brucellosis,Gambella,7.8964703,34.5403462,488.1139292,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Benshangul Gumuz,10.56375333,36.13972667,1568.7,Cow,Yes,Vaccinated against the suspected disease,Health Facility,Verbal,No,http://api.ona.io/api/v1/files/19808731?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1616565215072.jpg
+Brucellosis,Benshangul Gumuz,10.60134,36.172545,1569.6,Cow,No,Not vaccinated,Community gathering,Verbal,Yes,http://api.ona.io/api/v1/files/19808730?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1616487604137.jpg
+Brucellosis,Benshangul Gumuz,10.67525333,36.15828167,1070.0,Cow,Yes,Vaccinated against the suspected disease,Community gathering,Verbal,No,http://api.ona.io/api/v1/files/19808728?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1616388599733.jpg
+Brucellosis,Benshangul Gumuz,10.06251167,34.55256,1577.7,Sheep,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Oromia,3.674929,38.5594521,1298.740682,Goat,Yes,Not vaccinated,Other specify,Telephone,Yes,
+Brucellosis,Benshangul Gumuz,9.918658333,36.05685,1144.8,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/19479987?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1615186853626.jpg
+Brucellosis,Gambella,7.9120412,34.530822,173.3,Cow,Yes,Not vaccinated,House to house visit,Verbal,Yes,1613066217030.jpg
+Brucellosis,Benshangul Gumuz,10.16326353,34.64389667,1509.0,Cow,Yes,Not vaccinated,Health Facility,Written,No,1607668323889.jpg
+Brucellosis,Gambella,7.8968518,34.5393569,455.6,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/19034186?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1613069827221.jpg
+Brucellosis,Somali,5.12527939,40.66036422,1243.247192,Goat,Yes,Vaccinated against the suspected disease,House to house visit,Verbal,Yes,http://api.ona.io/api/v1/files/15762785?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585590316183.jpg
+Brucellosis,Gambella,7.302166667,35.287995,1447.7,Cow,Yes,Not vaccinated,House to house visit,Written,Yes,
+Brucellosis,Somali,5.934382584,43.52862278,246.0,Cow,Yes,Vaccinated against the suspected disease,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15348841?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1585062801710.jpg
+Brucellosis,Somali,6.135975863,43.648211,296.0,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,
+Brucellosis,Somali,5.966255902,43.46436686,276.0,Goat,Yes,Not vaccinated,House to house visit,Written,Yes,http://api.ona.io/api/v1/files/15348824?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1584717104686.jpg
+Brucellosis,Somali,5.963720335,43.46696684,252.0,Sheep,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15334111?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1584716479530.jpg
+Brucellosis,Somali,5.15034935,40.62996195,1224.866943,Goat,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/15306925?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1584521103374.jpg
+Brucellosis,Gambella,7.236575,35.31785167,1333.6,Cow,Yes,Not vaccinated,Health Facility,Telephone,Yes,
+Brucellosis,Gambella,7.236363333,35.31804167,1374.5,Cow,Yes,Not vaccinated,Health Facility,Telephone,No,
+Brucellosis,Somali,5.860348333,43.65460333,244.9,Cow,Yes,Not vaccinated,House to house visit,Telephone,Yes,http://api.ona.io/api/v1/files/14347838?filename=tenager_tadesse/attachments/466122_CGPP_Ethiopia_Surevillance_form_GHS_CGP/1577786158106.jpg
+Brucellosis,Benshangul Gumuz,,,,Cow,Yes,Not vaccinated,House to house visit,Verbal,Yes,
