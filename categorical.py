@@ -18,7 +18,6 @@ df = pd.read_excel(DATA_PATH)
 
 # --------------------------------------------------
 # 2. Variables to analyse
-# --------------------------------------------------
 
 categorical_vars = [
     "Region",
