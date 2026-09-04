@@ -16,7 +16,6 @@ OUTPUT_PATH = DATA_PATH.parent / "categorical_feature_analysis.xlsx"
 df = pd.read_excel(DATA_PATH)
 
 
-# --------------------------------------------------
 # 2. Variables to analyse
 
 categorical_vars = [
