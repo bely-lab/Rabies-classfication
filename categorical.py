@@ -58,7 +58,6 @@ def cramers_v(table):
     return chi2, p, v
 
 
-# --------------------------------------------------
 # 4. Analyse variables
 
 
