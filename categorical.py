@@ -5,7 +5,7 @@ from scipy.stats import chi2_contingency
 
 # --------------------------------------------------
 # 1. Load data
-# --------------------------------------------------
+
 
 DATA_PATH = Path(
     "/Users/belayneshmossiekndie/Desktop/Haqila/analysis/output/CGPP_Animal_Clean_Combined.xlsx"
