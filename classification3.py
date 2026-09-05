@@ -1,12 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from sklearn.model_selection import (
-    StratifiedKFold,
-    GridSearchCV,
-    cross_validate
-)
-
+from sklearn.model_selection import StratifiedKFold, GridSearchCV
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
@@ -16,14 +11,14 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import (
+    accuracy_score,
     balanced_accuracy_score,
     f1_score,
     recall_score,
     roc_auc_score,
-    make_scorer
+    confusion_matrix
 )
 
-# Advanced gradient boosting models
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
@@ -187,46 +182,24 @@ models = {
 
 
 # ============================================================
-# 6. CROSS-VALIDATION
+# 6. OUTER + INNER CROSS-VALIDATION
 # ============================================================
 
-cv = StratifiedKFold(
+outer_cv = StratifiedKFold(
     n_splits=5,
+    shuffle=True,
+    random_state=42
+)
+
+inner_cv = StratifiedKFold(
+    n_splits=4,
     shuffle=True,
     random_state=42
 )
 
 
 # ============================================================
-# 7. SCORING
-# ============================================================
-
-scoring = {
-    "balanced_accuracy": make_scorer(
-        balanced_accuracy_score
-    ),
-
-    "f1": make_scorer(
-        f1_score
-    ),
-
-    "recall": make_scorer(
-        recall_score
-    ),
-
-    "roc_auc": "roc_auc"
-}
-
-
-# ============================================================
-# 8. NESTED CV
-# ============================================================
-#
-# Outer CV estimates generalization performance.
-# Inner CV selects hyperparameters.
-#
-# This prevents using the same folds both to tune
-# and evaluate the model.
+# 7. RUN NESTED CROSS-VALIDATION
 # ============================================================
 
 results = []
@@ -238,15 +211,10 @@ for model_name, (model, param_grid) in models.items():
     print(model_name)
     print("=" * 70)
 
-    outer_scores = {
-        "balanced_accuracy": [],
-        "f1": [],
-        "recall": [],
-        "roc_auc": []
-    }
+    fold_results = []
 
     for fold, (train_idx, test_idx) in enumerate(
-        cv.split(X, y), start=1
+        outer_cv.split(X, y), start=1
     ):
 
         X_train = X.iloc[train_idx]
@@ -259,13 +227,6 @@ for model_name, (model, param_grid) in models.items():
             ("preprocessing", preprocessor),
             ("model", model)
         ])
-
-        # Inner CV for hyperparameter selection
-        inner_cv = StratifiedKFold(
-            n_splits=4,
-            shuffle=True,
-            random_state=42
-        )
 
         search = GridSearchCV(
             estimator=pipeline,
@@ -283,73 +244,86 @@ for model_name, (model, param_grid) in models.items():
         predictions = best_model.predict(X_test)
         probabilities = best_model.predict_proba(X_test)[:, 1]
 
-        outer_scores["balanced_accuracy"].append(
-            balanced_accuracy_score(
-                y_test,
-                predictions
-            )
+        # ----------------------------------------------------
+        # Metrics
+        # ----------------------------------------------------
+
+        accuracy = accuracy_score(
+            y_test,
+            predictions
         )
 
-        outer_scores["f1"].append(
-            f1_score(
-                y_test,
-                predictions
-            )
+        balanced_accuracy = balanced_accuracy_score(
+            y_test,
+            predictions
         )
 
-        outer_scores["recall"].append(
-            recall_score(
-                y_test,
-                predictions
-            )
+        f1 = f1_score(
+            y_test,
+            predictions
         )
 
-        outer_scores["roc_auc"].append(
-            roc_auc_score(
-                y_test,
-                probabilities
-            )
+        sensitivity = recall_score(
+            y_test,
+            predictions
         )
+
+        auc = roc_auc_score(
+            y_test,
+            probabilities
+        )
+
+        # Confusion matrix:
+        # [[TN, FP],
+        #  [FN, TP]]
+
+        tn, fp, fn, tp = confusion_matrix(
+            y_test,
+            predictions,
+            labels=[0, 1]
+        ).ravel()
+
+        specificity = tn / (tn + fp)
+
+        fold_results.append({
+            "Accuracy": accuracy,
+            "Balanced Accuracy": balanced_accuracy,
+            "F1": f1,
+            "Sensitivity": sensitivity,
+            "Specificity": specificity,
+            "ROC-AUC": auc
+        })
 
         print(
             f"Fold {fold}: "
-            f"BA={outer_scores['balanced_accuracy'][-1]:.3f}, "
-            f"F1={outer_scores['f1'][-1]:.3f}, "
-            f"Recall={outer_scores['recall'][-1]:.3f}, "
-            f"AUC={outer_scores['roc_auc'][-1]:.3f}"
+            f"Accuracy={accuracy:.3f}, "
+            f"BA={balanced_accuracy:.3f}, "
+            f"F1={f1:.3f}, "
+            f"Sensitivity={sensitivity:.3f}, "
+            f"Specificity={specificity:.3f}, "
+            f"AUC={auc:.3f}"
         )
 
-    results.append({
-        "Model": model_name,
+    # --------------------------------------------------------
+    # Average across outer folds
+    # --------------------------------------------------------
 
-        "Balanced Accuracy Mean":
-            np.mean(outer_scores["balanced_accuracy"]),
+    fold_df = pd.DataFrame(fold_results)
 
-        "Balanced Accuracy SD":
-            np.std(outer_scores["balanced_accuracy"]),
+    result = {
+        "Model": model_name
+    }
 
-        "F1 Mean":
-            np.mean(outer_scores["f1"]),
+    for metric in fold_df.columns:
 
-        "F1 SD":
-            np.std(outer_scores["f1"]),
+        result[f"{metric} Mean"] = fold_df[metric].mean()
+        result[f"{metric} SD"] = fold_df[metric].std()
 
-        "Recall Mean":
-            np.mean(outer_scores["recall"]),
-
-        "Recall SD":
-            np.std(outer_scores["recall"]),
-
-        "ROC-AUC Mean":
-            np.mean(outer_scores["roc_auc"]),
-
-        "ROC-AUC SD":
-            np.std(outer_scores["roc_auc"])
-    })
+    results.append(result)
 
 
 # ============================================================
-# 9. FINAL RESULTS
+# 8. FINAL RESULTS
 # ============================================================
 
 results_df = pd.DataFrame(results)
@@ -360,13 +334,42 @@ results_df = results_df.sort_values(
 )
 
 print("\n\n")
-print("=" * 90)
+print("=" * 120)
 print("FINAL NESTED CROSS-VALIDATION RESULTS")
-print("=" * 90)
+print("=" * 120)
 
 print(
     results_df.to_string(
         index=False,
         float_format=lambda x: f"{x:.4f}"
+    )
+)
+
+
+# ============================================================
+# 9. PRESENTATION TABLE
+# ============================================================
+
+presentation_table = results_df[
+    [
+        "Model",
+        "Accuracy Mean",
+        "Balanced Accuracy Mean",
+        "F1 Mean",
+        "Sensitivity Mean",
+        "Specificity Mean",
+        "ROC-AUC Mean"
+    ]
+].copy()
+
+print("\n\n")
+print("=" * 100)
+print("PRESENTATION TABLE")
+print("=" * 100)
+
+print(
+    presentation_table.to_string(
+        index=False,
+        float_format=lambda x: f"{x:.3f}"
     )
 )
