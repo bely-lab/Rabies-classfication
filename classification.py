@@ -74,6 +74,7 @@ print("0 = Non-Rabies (Anthrax + Brucellosis)")
 
 # 3. SELECT STRUCTURED FEATURES
 
+
 # These are the final structured predictors.
 
 categorical_features = [
